@@ -1,5 +1,21 @@
 # jfxai4ftm
 
+<p align="center">
+  <img
+    src="food_truck_architecture.jpg"
+    alt="JFXAI4FTM — AI-Powered Food Truck Management Platform Architecture"
+    width="100%"
+  />
+</p>
+
+<p align="center">
+  <em>
+    Open-source architecture for AI-powered food truck operations, restaurant management,
+    POS, online ordering, fleet logistics, delivery, IoT, robotics, digital twins
+    and MBSE-driven engineering.
+  </em>
+</p>
+
 ## OpenTwin AI Food Truck & Mobile Food-Service Management Platform
 
 > Open, modular reference architecture for AI-assisted food-truck
