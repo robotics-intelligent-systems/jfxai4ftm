@@ -1,5 +1,3 @@
-# jfxai4ftm
-
 <p align="center">
   <img
     src="food_truck_architecture.jpg"
