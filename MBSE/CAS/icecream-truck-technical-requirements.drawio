@@ -1,0 +1,1241 @@
+<mxfile host="Electron" agent="Codex" compressed="false" pages="4">
+  <diagram id="icecream-1" name="01 Requirements">
+    <mxGraphModel dx="2442" dy="1180" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1760" pageHeight="1160" background="#F4F7FA" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="header" parent="1" style="html=0;whiteSpace=wrap;overflow=hidden;rounded=0;arcSize=8;fillColor=#102C46;strokeColor=none;container=1;collapsible=0;recursiveResize=0;" value="" vertex="1">
+          <mxGeometry height="100" width="1760" as="geometry" />
+        </mxCell>
+        <mxCell id="title" parent="1" style="html=0;whiteSpace=wrap;overflow=hidden;text;fillColor=none;strokeColor=none;align=left;verticalAlign=top;spacing=0;fontFamily=DejaVu Sans;fontSize=30;fontColor=#FFFFFF;fontStyle=1;" value="OpenTwin | Ice Cream &amp; Desserts Truck" vertex="1">
+          <mxGeometry height="42" width="1350" x="40" y="18" as="geometry" />
+        </mxCell>
+        <mxCell id="subtitle" parent="1" style="html=0;whiteSpace=wrap;overflow=hidden;text;fillColor=none;strokeColor=none;align=left;verticalAlign=top;spacing=0;fontFamily=DejaVu Sans;fontSize=15;fontColor=#C8DCEB;fontStyle=0;" value="High-level technical specifications | Mission, cold chain, safety, energy, digital twin and lifecycle" vertex="1">
+          <mxGeometry height="24" width="1370" x="40" y="62" as="geometry" />
+        </mxCell>
+        <mxCell id="page-no" parent="1" style="html=0;whiteSpace=wrap;overflow=hidden;text;fillColor=none;strokeColor=none;align=right;verticalAlign=top;spacing=0;fontFamily=DejaVu Sans;fontSize=17;fontColor=#FFFFFF;fontStyle=1;" value="01 / REQUIREMENTS" vertex="1">
+          <mxGeometry height="50" width="270" x="1450" y="27" as="geometry" />
+        </mxCell>
+        <mxCell id="footer" parent="1" style="html=0;whiteSpace=wrap;overflow=hidden;text;fillColor=none;strokeColor=none;align=left;verticalAlign=top;spacing=0;fontFamily=DejaVu Sans;fontSize=12;fontColor=#526779;fontStyle=0;" value="JFXAI4FTM • Proposed requirements baseline v0.1 • 12 Sep 2026 • Concept artwork is not a dimensioned engineering design" vertex="1">
+          <mxGeometry height="22" width="1680" x="40" y="1120" as="geometry" />
+        </mxCell>
+        <mxCell id="evidence" parent="1" style="html=0;whiteSpace=wrap;overflow=hidden;rounded=1;arcSize=8;fillColor=#FFFFFF;strokeColor=#D3DFE7;container=1;collapsible=0;recursiveResize=0;" value="" vertex="1">
+          <mxGeometry height="240" width="515" x="40" y="125" as="geometry" />
+        </mxCell>
+        <mxCell id="evidence-bar" parent="evidence" style="html=0;whiteSpace=wrap;overflow=hidden;rounded=0;arcSize=8;fillColor=#176F9B;strokeColor=none;container=1;collapsible=0;recursiveResize=0;" value="" vertex="1">
+          <mxGeometry height="5" width="515" as="geometry" />
+        </mxCell>
+        <mxCell id="evidence-title" parent="evidence" style="html=0;whiteSpace=wrap;overflow=hidden;text;fillColor=none;strokeColor=none;align=left;verticalAlign=top;spacing=0;fontFamily=DejaVu Sans;fontSize=18;fontColor=#176F9B;fontStyle=1;" value="Concept evidence [S1–S2]" vertex="1">
+          <mxGeometry height="25" width="487" x="14" y="13" as="geometry" />
+        </mxCell>
+        <mxCell id="evidence-body" link="https://github.com/robotics-intelligent-systems/jfxai4ftm/blob/main/MBSE/CAD/icecream-truck-concept.jpg" parent="evidence" style="html=0;whiteSpace=wrap;overflow=hidden;text;fillColor=none;strokeColor=none;align=left;verticalAlign=top;spacing=0;fontFamily=DejaVu Sans;fontSize=16;fontColor=#203D52;fontStyle=0;" value="Modular ice-cream and desserts truck with public serving&#xa;hatch, frozen display and service counter.&#xa;&#xa;The artwork also suggests PV, battery, water, digital twin,&#xa;real-time monitoring, predictive maintenance, resource&#xa;optimization and open APIs." vertex="1">
+          <mxGeometry height="188" width="487" x="14" y="41" as="geometry" />
+        </mxCell>
+        <mxCell id="system" parent="1" style="html=0;whiteSpace=wrap;overflow=hidden;rounded=1;arcSize=8;fillColor=#FFFFFF;strokeColor=#D3DFE7;container=1;collapsible=0;recursiveResize=0;" value="" vertex="1">
+          <mxGeometry height="240" width="635" x="585" y="125" as="geometry" />
+        </mxCell>
+        <mxCell id="system-bar" parent="system" style="html=0;whiteSpace=wrap;overflow=hidden;rounded=0;arcSize=8;fillColor=#102C46;strokeColor=none;container=1;collapsible=0;recursiveResize=0;" value="" vertex="1">
+          <mxGeometry height="5" width="635" as="geometry" />
+        </mxCell>
+        <mxCell id="system-title" parent="system" style="html=0;whiteSpace=wrap;overflow=hidden;text;fillColor=none;strokeColor=none;align=left;verticalAlign=top;spacing=0;fontFamily=DejaVu Sans;fontSize=18;fontColor=#102C46;fontStyle=1;" value="REQ-SYS | Safe mobile cold-food service" vertex="1">
+          <mxGeometry height="25" width="607" x="14" y="13" as="geometry" />
+        </mxCell>
+        <mxCell id="system-body" parent="system" style="html=0;whiteSpace=wrap;overflow=hidden;text;fillColor=none;strokeColor=none;align=left;verticalAlign=top;spacing=0;fontFamily=DejaVu Sans;fontSize=18;fontColor=#203D52;fontStyle=0;" value="Provide a road-ready, modular and maintainable service vehicle&#xa;for frozen products and desserts. Preserve food safety, public&#xa;accessibility, local emergency control, utility containment and an&#xa;open supervisory data layer." vertex="1">
+          <mxGeometry height="188" width="607" x="14" y="41" as="geometry" />
+        </mxCell>
+        <mxCell id="caption" parent="1" style="html=0;whiteSpace=wrap;overflow=hidden;text;fillColor=none;strokeColor=none;align=left;verticalAlign=top;spacing=0;fontFamily=DejaVu Sans;fontSize=12;fontColor=#526779;fontStyle=0;" value="Reference image; dashboard values are illustrative." vertex="1">
+          <mxGeometry height="20" width="450" x="1270" y="373" as="geometry" />
+        </mxCell>
+        <mxCell id="proposed" parent="1" style="html=0;whiteSpace=wrap;overflow=hidden;text;fillColor=none;strokeColor=none;align=left;verticalAlign=top;spacing=0;fontFamily=DejaVu Sans;fontSize=15;fontColor=#526779;fontStyle=0;" value="R01–R24 are proposed engineering requirements. Product limits, jurisdiction, dimensions, loads, occupancy, energy capacity and fire criteria remain TBD until the system baseline is approved." vertex="1">
+          <mxGeometry height="24" width="1680" x="40" y="390" as="geometry" />
+        </mxCell>
+        <mxCell id="g1" parent="1" style="html=0;whiteSpace=wrap;overflow=hidden;rounded=1;arcSize=8;fillColor=#FFFFFF;strokeColor=#D3DFE7;container=1;collapsible=0;recursiveResize=0;" value="" vertex="1">
+          <mxGeometry height="635" width="260" x="40" y="430" as="geometry" />
+        </mxCell>
+        <mxCell id="g1-head" parent="g1" style="html=0;whiteSpace=wrap;overflow=hidden;rounded=1;arcSize=8;fillColor=#176F9B;strokeColor=none;container=1;collapsible=0;recursiveResize=0;" value="" vertex="1">
+          <mxGeometry height="45" width="260" as="geometry" />
+        </mxCell>
+        <mxCell id="g1-title" parent="g1" style="html=0;whiteSpace=wrap;overflow=hidden;text;fillColor=none;strokeColor=none;align=left;verticalAlign=top;spacing=0;fontFamily=DejaVu Sans;fontSize=15;fontColor=#FFFFFF;fontStyle=1;" value="01 / MISSION &amp; ROAD" vertex="1">
+          <mxGeometry height="26" width="240" x="10" y="13" as="geometry" />
+        </mxCell>
+        <mxCell id="g1-R01" parent="g1" style="html=0;whiteSpace=wrap;overflow=hidden;rounded=1;arcSize=8;fillColor=#FFFFFF;strokeColor=#D3DFE7;container=1;collapsible=0;recursiveResize=0;" value="" vertex="1">
+          <mxGeometry height="130" width="240" x="10" y="60" as="geometry" />
+        </mxCell>
+        <mxCell id="g1-R01-bar" parent="g1-R01" style="html=0;whiteSpace=wrap;overflow=hidden;rounded=0;arcSize=8;fillColor=#176F9B;strokeColor=none;container=1;collapsible=0;recursiveResize=0;" value="" vertex="1">
+          <mxGeometry height="5" width="240" as="geometry" />
+        </mxCell>
+        <mxCell id="g1-R01-title" parent="g1-R01" style="html=0;whiteSpace=wrap;overflow=hidden;text;fillColor=none;strokeColor=none;align=left;verticalAlign=top;spacing=0;fontFamily=DejaVu Sans;fontSize=18;fontColor=#176F9B;fontStyle=1;" value="R01 Definir servicio&#xa;móvil y&#xa;configuración." vertex="1">
+          <mxGeometry height="72" width="212" x="14" y="13" as="geometry" />
+        </mxCell>
+        <mxCell id="g1-R01-body" parent="g1-R01" style="html=0;whiteSpace=wrap;overflow=hidden;text;fillColor=none;strokeColor=none;align=left;verticalAlign=top;spacing=0;fontFamily=DejaVu Sans;fontSize=13;fontColor=#203D52;fontStyle=0;" value="Propuesto → I + D | V01" vertex="1">
+          <mxGeometry height="31" width="212" x="14" y="88" as="geometry" />
+        </mxCell>
+        <mxCell id="g1-R02" parent="g1" style="html=0;whiteSpace=wrap;overflow=hidden;rounded=1;arcSize=8;fillColor=#FFFFFF;strokeColor=#D3DFE7;container=1;collapsible=0;recursiveResize=0;" value="" vertex="1">
+          <mxGeometry height="130" width="240" x="10" y="203" as="geometry" />
+        </mxCell>
+        <mxCell id="g1-R02-bar" parent="g1-R02" style="html=0;whiteSpace=wrap;overflow=hidden;rounded=0;arcSize=8;fillColor=#176F9B;strokeColor=none;container=1;collapsible=0;recursiveResize=0;" value="" vertex="1">
+          <mxGeometry height="5" width="240" as="geometry" />
+        </mxCell>
+        <mxCell id="g1-R02-title" parent="g1-R02" style="html=0;whiteSpace=wrap;overflow=hidden;text;fillColor=none;strokeColor=none;align=left;verticalAlign=top;spacing=0;fontFamily=DejaVu Sans;fontSize=18;fontColor=#176F9B;fontStyle=1;" value="R02 Cumplir masa,&#xa;ejes y remolque." vertex="1">
+          <mxGeometry height="48" width="212" x="14" y="13" as="geometry" />
+        </mxCell>
+        <mxCell id="g1-R02-body" parent="g1-R02" style="html=0;whiteSpace=wrap;overflow=hidden;text;fillColor=none;strokeColor=none;align=left;verticalAlign=top;spacing=0;fontFamily=DejaVu Sans;fontSize=13;fontColor=#203D52;fontStyle=0;" value="Propuesto → A + T | V01" vertex="1">
+          <mxGeometry height="55" width="212" x="14" y="64" as="geometry" />
+        </mxCell>
+        <mxCell id="g1-R03" parent="g1" style="html=0;whiteSpace=wrap;overflow=hidden;rounded=1;arcSize=8;fillColor=#FFFFFF;strokeColor=#D3DFE7;container=1;collapsible=0;recursiveResize=0;" value="" vertex="1">
+          <mxGeometry height="130" width="240" x="10" y="346" as="geometry" />
+        </mxCell>
+        <mxCell id="g1-R03-bar" parent="g1-R03" style="html=0;whiteSpace=wrap;overflow=hidden;rounded=0;arcSize=8;fillColor=#176F9B;strokeColor=none;container=1;collapsible=0;recursiveResize=0;" value="" vertex="1">
+          <mxGeometry height="5" width="240" as="geometry" />
+        </mxCell>
+        <mxCell id="g1-R03-title" parent="g1-R03" style="html=0;whiteSpace=wrap;overflow=hidden;text;fillColor=none;strokeColor=none;align=left;verticalAlign=top;spacing=0;fontFamily=DejaVu Sans;fontSize=18;fontColor=#176F9B;fontStyle=1;" value="R03 Retener&#xa;módulos y equipos." vertex="1">
+          <mxGeometry height="48" width="212" x="14" y="13" as="geometry" />
+        </mxCell>
+        <mxCell id="g1-R03-body" parent="g1-R03" style="html=0;whiteSpace=wrap;overflow=hidden;text;fillColor=none;strokeColor=none;align=left;verticalAlign=top;spacing=0;fontFamily=DejaVu Sans;fontSize=13;fontColor=#203D52;fontStyle=0;" value="Propuesto → A + T | V01" vertex="1">
+          <mxGeometry height="55" width="212" x="14" y="64" as="geometry" />
+        </mxCell>
+        <mxCell id="g1-R04" parent="g1" style="html=0;whiteSpace=wrap;overflow=hidden;rounded=1;arcSize=8;fillColor=#FFFFFF;strokeColor=#D3DFE7;container=1;collapsible=0;recursiveResize=0;" value="" vertex="1">
+          <mxGeometry height="130" width="240" x="10" y="489" as="geometry" />
+        </mxCell>
+        <mxCell id="g1-R04-bar" parent="g1-R04" style="html=0;whiteSpace=wrap;overflow=hidden;rounded=0;arcSize=8;fillColor=#176F9B;strokeColor=none;container=1;collapsible=0;recursiveResize=0;" value="" vertex="1">
+          <mxGeometry height="5" width="240" as="geometry" />
+        </mxCell>
+        <mxCell id="g1-R04-title" parent="g1-R04" style="html=0;whiteSpace=wrap;overflow=hidden;text;fillColor=none;strokeColor=none;align=left;verticalAlign=top;spacing=0;fontFamily=DejaVu Sans;fontSize=18;fontColor=#176F9B;fontStyle=1;" value="R04 Controlar el&#xa;cambio&#xa;transporte-servicio." vertex="1">
+          <mxGeometry height="72" width="212" x="14" y="13" as="geometry" />
+        </mxCell>
+        <mxCell id="g1-R04-body" parent="g1-R04" style="html=0;whiteSpace=wrap;overflow=hidden;text;fillColor=none;strokeColor=none;align=left;verticalAlign=top;spacing=0;fontFamily=DejaVu Sans;fontSize=13;fontColor=#203D52;fontStyle=0;" value="Propuesto → I + D | V01" vertex="1">
+          <mxGeometry height="31" width="212" x="14" y="88" as="geometry" />
+        </mxCell>
+        <mxCell id="g2" parent="1" style="html=0;whiteSpace=wrap;overflow=hidden;rounded=1;arcSize=8;fillColor=#FFFFFF;strokeColor=#D3DFE7;container=1;collapsible=0;recursiveResize=0;" value="" vertex="1">
+          <mxGeometry height="635" width="260" x="320" y="430" as="geometry" />
+        </mxCell>
+        <mxCell id="g2-head" parent="g2" style="html=0;whiteSpace=wrap;overflow=hidden;rounded=1;arcSize=8;fillColor=#B44036;strokeColor=none;container=1;collapsible=0;recursiveResize=0;" value="" vertex="1">
+          <mxGeometry height="45" width="260" as="geometry" />
+        </mxCell>
+        <mxCell id="g2-title" parent="g2" style="html=0;whiteSpace=wrap;overflow=hidden;text;fillColor=none;strokeColor=none;align=left;verticalAlign=top;spacing=0;fontFamily=DejaVu Sans;fontSize=15;fontColor=#FFFFFF;fontStyle=1;" value="02 / SERVICE &amp; FOOD" vertex="1">
+          <mxGeometry height="26" width="240" x="10" y="13" as="geometry" />
+        </mxCell>
+        <mxCell id="g2-R05" parent="g2" style="html=0;whiteSpace=wrap;overflow=hidden;rounded=1;arcSize=8;fillColor=#FFFFFF;strokeColor=#D3DFE7;container=1;collapsible=0;recursiveResize=0;" value="" vertex="1">
+          <mxGeometry height="130" width="240" x="10" y="60" as="geometry" />
+        </mxCell>
+        <mxCell id="g2-R05-bar" parent="g2-R05" style="html=0;whiteSpace=wrap;overflow=hidden;rounded=0;arcSize=8;fillColor=#B44036;strokeColor=none;container=1;collapsible=0;recursiveResize=0;" value="" vertex="1">
+          <mxGeometry height="5" width="240" as="geometry" />
+        </mxCell>
+        <mxCell id="g2-R05-title" parent="g2-R05" style="html=0;whiteSpace=wrap;overflow=hidden;text;fillColor=none;strokeColor=none;align=left;verticalAlign=top;spacing=0;fontFamily=DejaVu Sans;fontSize=18;fontColor=#B44036;fontStyle=1;" value="R05 Mantener&#xa;límites por&#xa;producto." vertex="1">
+          <mxGeometry height="72" width="212" x="14" y="13" as="geometry" />
+        </mxCell>
+        <mxCell id="g2-R05-body" parent="g2-R05" style="html=0;whiteSpace=wrap;overflow=hidden;text;fillColor=none;strokeColor=none;align=left;verticalAlign=top;spacing=0;fontFamily=DejaVu Sans;fontSize=13;fontColor=#203D52;fontStyle=0;" value="Propuesto → I + T | V02" vertex="1">
+          <mxGeometry height="31" width="212" x="14" y="88" as="geometry" />
+        </mxCell>
+        <mxCell id="g2-R06" parent="g2" style="html=0;whiteSpace=wrap;overflow=hidden;rounded=1;arcSize=8;fillColor=#FFFFFF;strokeColor=#D3DFE7;container=1;collapsible=0;recursiveResize=0;" value="" vertex="1">
+          <mxGeometry height="130" width="240" x="10" y="203" as="geometry" />
+        </mxCell>
+        <mxCell id="g2-R06-bar" parent="g2-R06" style="html=0;whiteSpace=wrap;overflow=hidden;rounded=0;arcSize=8;fillColor=#B44036;strokeColor=none;container=1;collapsible=0;recursiveResize=0;" value="" vertex="1">
+          <mxGeometry height="5" width="240" as="geometry" />
+        </mxCell>
+        <mxCell id="g2-R06-title" parent="g2-R06" style="html=0;whiteSpace=wrap;overflow=hidden;text;fillColor=none;strokeColor=none;align=left;verticalAlign=top;spacing=0;fontFamily=DejaVu Sans;fontSize=18;fontColor=#B44036;fontStyle=1;" value="R06 Registrar&#xa;excursiones&#xa;térmicas." vertex="1">
+          <mxGeometry height="72" width="212" x="14" y="13" as="geometry" />
+        </mxCell>
+        <mxCell id="g2-R06-body" parent="g2-R06" style="html=0;whiteSpace=wrap;overflow=hidden;text;fillColor=none;strokeColor=none;align=left;verticalAlign=top;spacing=0;fontFamily=DejaVu Sans;fontSize=13;fontColor=#203D52;fontStyle=0;" value="Propuesto → T | V02" vertex="1">
+          <mxGeometry height="31" width="212" x="14" y="88" as="geometry" />
+        </mxCell>
+        <mxCell id="g2-R07" parent="g2" style="html=0;whiteSpace=wrap;overflow=hidden;rounded=1;arcSize=8;fillColor=#FFFFFF;strokeColor=#D3DFE7;container=1;collapsible=0;recursiveResize=0;" value="" vertex="1">
+          <mxGeometry height="130" width="240" x="10" y="346" as="geometry" />
+        </mxCell>
+        <mxCell id="g2-R07-bar" parent="g2-R07" style="html=0;whiteSpace=wrap;overflow=hidden;rounded=0;arcSize=8;fillColor=#B44036;strokeColor=none;container=1;collapsible=0;recursiveResize=0;" value="" vertex="1">
+          <mxGeometry height="5" width="240" as="geometry" />
+        </mxCell>
+        <mxCell id="g2-R07-title" parent="g2-R07" style="html=0;whiteSpace=wrap;overflow=hidden;text;fillColor=none;strokeColor=none;align=left;verticalAlign=top;spacing=0;fontFamily=DejaVu Sans;fontSize=18;fontColor=#B44036;fontStyle=1;" value="R07 Separar&#xa;producto, limpieza y&#xa;residuos." vertex="1">
+          <mxGeometry height="72" width="212" x="14" y="13" as="geometry" />
+        </mxCell>
+        <mxCell id="g2-R07-body" parent="g2-R07" style="html=0;whiteSpace=wrap;overflow=hidden;text;fillColor=none;strokeColor=none;align=left;verticalAlign=top;spacing=0;fontFamily=DejaVu Sans;fontSize=13;fontColor=#203D52;fontStyle=0;" value="Propuesto → I + D | V03" vertex="1">
+          <mxGeometry height="31" width="212" x="14" y="88" as="geometry" />
+        </mxCell>
+        <mxCell id="g2-R08" parent="g2" style="html=0;whiteSpace=wrap;overflow=hidden;rounded=1;arcSize=8;fillColor=#FFFFFF;strokeColor=#D3DFE7;container=1;collapsible=0;recursiveResize=0;" value="" vertex="1">
+          <mxGeometry height="130" width="240" x="10" y="489" as="geometry" />
+        </mxCell>
+        <mxCell id="g2-R08-bar" parent="g2-R08" style="html=0;whiteSpace=wrap;overflow=hidden;rounded=0;arcSize=8;fillColor=#B44036;strokeColor=none;container=1;collapsible=0;recursiveResize=0;" value="" vertex="1">
+          <mxGeometry height="5" width="240" as="geometry" />
+        </mxCell>
+        <mxCell id="g2-R08-title" parent="g2-R08" style="html=0;whiteSpace=wrap;overflow=hidden;text;fillColor=none;strokeColor=none;align=left;verticalAlign=top;spacing=0;fontFamily=DejaVu Sans;fontSize=18;fontColor=#B44036;fontStyle=1;" value="R08 Servir con&#xa;accesibilidad y&#xa;control de público." vertex="1">
+          <mxGeometry height="72" width="212" x="14" y="13" as="geometry" />
+        </mxCell>
+        <mxCell id="g2-R08-body" parent="g2-R08" style="html=0;whiteSpace=wrap;overflow=hidden;text;fillColor=none;strokeColor=none;align=left;verticalAlign=top;spacing=0;fontFamily=DejaVu Sans;fontSize=13;fontColor=#203D52;fontStyle=0;" value="Propuesto → I + D | V03" vertex="1">
+          <mxGeometry height="31" width="212" x="14" y="88" as="geometry" />
+        </mxCell>
+        <mxCell id="g3" parent="1" style="html=0;whiteSpace=wrap;overflow=hidden;rounded=1;arcSize=8;fillColor=#FFFFFF;strokeColor=#D3DFE7;container=1;collapsible=0;recursiveResize=0;" value="" vertex="1">
+          <mxGeometry height="635" width="260" x="600" y="430" as="geometry" />
+        </mxCell>
+        <mxCell id="g3-head" parent="g3" style="html=0;whiteSpace=wrap;overflow=hidden;rounded=1;arcSize=8;fillColor=#397A5B;strokeColor=none;container=1;collapsible=0;recursiveResize=0;" value="" vertex="1">
+          <mxGeometry height="45" width="260" as="geometry" />
+        </mxCell>
+        <mxCell id="g3-title" parent="g3" style="html=0;whiteSpace=wrap;overflow=hidden;text;fillColor=none;strokeColor=none;align=left;verticalAlign=top;spacing=0;fontFamily=DejaVu Sans;fontSize=15;fontColor=#FFFFFF;fontStyle=1;" value="03 / WATER &amp; HYGIENE" vertex="1">
+          <mxGeometry height="26" width="240" x="10" y="13" as="geometry" />
+        </mxCell>
+        <mxCell id="g3-R09" parent="g3" style="html=0;whiteSpace=wrap;overflow=hidden;rounded=1;arcSize=8;fillColor=#FFFFFF;strokeColor=#D3DFE7;container=1;collapsible=0;recursiveResize=0;" value="" vertex="1">
+          <mxGeometry height="130" width="240" x="10" y="60" as="geometry" />
+        </mxCell>
+        <mxCell id="g3-R09-bar" parent="g3-R09" style="html=0;whiteSpace=wrap;overflow=hidden;rounded=0;arcSize=8;fillColor=#397A5B;strokeColor=none;container=1;collapsible=0;recursiveResize=0;" value="" vertex="1">
+          <mxGeometry height="5" width="240" as="geometry" />
+        </mxCell>
+        <mxCell id="g3-R09-title" parent="g3-R09" style="html=0;whiteSpace=wrap;overflow=hidden;text;fillColor=none;strokeColor=none;align=left;verticalAlign=top;spacing=0;fontFamily=DejaVu Sans;fontSize=18;fontColor=#397A5B;fontStyle=1;" value="R09 Separar agua&#xa;potable y aguas&#xa;residuales." vertex="1">
+          <mxGeometry height="72" width="212" x="14" y="13" as="geometry" />
+        </mxCell>
+        <mxCell id="g3-R09-body" parent="g3-R09" style="html=0;whiteSpace=wrap;overflow=hidden;text;fillColor=none;strokeColor=none;align=left;verticalAlign=top;spacing=0;fontFamily=DejaVu Sans;fontSize=13;fontColor=#203D52;fontStyle=0;" value="Propuesto → I + T | V04" vertex="1">
+          <mxGeometry height="31" width="212" x="14" y="88" as="geometry" />
+        </mxCell>
+        <mxCell id="g3-R10" parent="g3" style="html=0;whiteSpace=wrap;overflow=hidden;rounded=1;arcSize=8;fillColor=#FFFFFF;strokeColor=#D3DFE7;container=1;collapsible=0;recursiveResize=0;" value="" vertex="1">
+          <mxGeometry height="130" width="240" x="10" y="203" as="geometry" />
+        </mxCell>
+        <mxCell id="g3-R10-bar" parent="g3-R10" style="html=0;whiteSpace=wrap;overflow=hidden;rounded=0;arcSize=8;fillColor=#397A5B;strokeColor=none;container=1;collapsible=0;recursiveResize=0;" value="" vertex="1">
+          <mxGeometry height="5" width="240" as="geometry" />
+        </mxCell>
+        <mxCell id="g3-R10-title" parent="g3-R10" style="html=0;whiteSpace=wrap;overflow=hidden;text;fillColor=none;strokeColor=none;align=left;verticalAlign=top;spacing=0;fontFamily=DejaVu Sans;fontSize=18;fontColor=#397A5B;fontStyle=1;" value="R10 Dimensionar&#xa;tanques para el&#xa;turno." vertex="1">
+          <mxGeometry height="72" width="212" x="14" y="13" as="geometry" />
+        </mxCell>
+        <mxCell id="g3-R10-body" parent="g3-R10" style="html=0;whiteSpace=wrap;overflow=hidden;text;fillColor=none;strokeColor=none;align=left;verticalAlign=top;spacing=0;fontFamily=DejaVu Sans;fontSize=13;fontColor=#203D52;fontStyle=0;" value="Propuesto → A + T | V04" vertex="1">
+          <mxGeometry height="31" width="212" x="14" y="88" as="geometry" />
+        </mxCell>
+        <mxCell id="g3-R11" parent="g3" style="html=0;whiteSpace=wrap;overflow=hidden;rounded=1;arcSize=8;fillColor=#FFFFFF;strokeColor=#D3DFE7;container=1;collapsible=0;recursiveResize=0;" value="" vertex="1">
+          <mxGeometry height="130" width="240" x="10" y="346" as="geometry" />
+        </mxCell>
+        <mxCell id="g3-R11-bar" parent="g3-R11" style="html=0;whiteSpace=wrap;overflow=hidden;rounded=0;arcSize=8;fillColor=#397A5B;strokeColor=none;container=1;collapsible=0;recursiveResize=0;" value="" vertex="1">
+          <mxGeometry height="5" width="240" as="geometry" />
+        </mxCell>
+        <mxCell id="g3-R11-title" parent="g3-R11" style="html=0;whiteSpace=wrap;overflow=hidden;text;fillColor=none;strokeColor=none;align=left;verticalAlign=top;spacing=0;fontFamily=DejaVu Sans;fontSize=18;fontColor=#397A5B;fontStyle=1;" value="R11 Permitir&#xa;limpieza e&#xa;inspección." vertex="1">
+          <mxGeometry height="72" width="212" x="14" y="13" as="geometry" />
+        </mxCell>
+        <mxCell id="g3-R11-body" parent="g3-R11" style="html=0;whiteSpace=wrap;overflow=hidden;text;fillColor=none;strokeColor=none;align=left;verticalAlign=top;spacing=0;fontFamily=DejaVu Sans;fontSize=13;fontColor=#203D52;fontStyle=0;" value="Propuesto → I + D | V03" vertex="1">
+          <mxGeometry height="31" width="212" x="14" y="88" as="geometry" />
+        </mxCell>
+        <mxCell id="g3-R12" parent="g3" style="html=0;whiteSpace=wrap;overflow=hidden;rounded=1;arcSize=8;fillColor=#FFFFFF;strokeColor=#D3DFE7;container=1;collapsible=0;recursiveResize=0;" value="" vertex="1">
+          <mxGeometry height="130" width="240" x="10" y="489" as="geometry" />
+        </mxCell>
+        <mxCell id="g3-R12-bar" parent="g3-R12" style="html=0;whiteSpace=wrap;overflow=hidden;rounded=0;arcSize=8;fillColor=#397A5B;strokeColor=none;container=1;collapsible=0;recursiveResize=0;" value="" vertex="1">
+          <mxGeometry height="5" width="240" as="geometry" />
+        </mxCell>
+        <mxCell id="g3-R12-title" parent="g3-R12" style="html=0;whiteSpace=wrap;overflow=hidden;text;fillColor=none;strokeColor=none;align=left;verticalAlign=top;spacing=0;fontFamily=DejaVu Sans;fontSize=18;fontColor=#397A5B;fontStyle=1;" value="R12 Separar zonas&#xa;calientes y frías." vertex="1">
+          <mxGeometry height="48" width="212" x="14" y="13" as="geometry" />
+        </mxCell>
+        <mxCell id="g3-R12-body" parent="g3-R12" style="html=0;whiteSpace=wrap;overflow=hidden;text;fillColor=none;strokeColor=none;align=left;verticalAlign=top;spacing=0;fontFamily=DejaVu Sans;fontSize=13;fontColor=#203D52;fontStyle=0;" value="Propuesto → A + I | V05" vertex="1">
+          <mxGeometry height="55" width="212" x="14" y="64" as="geometry" />
+        </mxCell>
+        <mxCell id="g4" parent="1" style="html=0;whiteSpace=wrap;overflow=hidden;rounded=1;arcSize=8;fillColor=#FFFFFF;strokeColor=#D3DFE7;container=1;collapsible=0;recursiveResize=0;" value="" vertex="1">
+          <mxGeometry height="635" width="260" x="880" y="430" as="geometry" />
+        </mxCell>
+        <mxCell id="g4-head" parent="g4" style="html=0;whiteSpace=wrap;overflow=hidden;rounded=1;arcSize=8;fillColor=#946218;strokeColor=none;container=1;collapsible=0;recursiveResize=0;" value="" vertex="1">
+          <mxGeometry height="45" width="260" as="geometry" />
+        </mxCell>
+        <mxCell id="g4-title" parent="g4" style="html=0;whiteSpace=wrap;overflow=hidden;text;fillColor=none;strokeColor=none;align=left;verticalAlign=top;spacing=0;fontFamily=DejaVu Sans;fontSize=15;fontColor=#FFFFFF;fontStyle=1;" value="04 / ENERGY &amp; SAFETY" vertex="1">
+          <mxGeometry height="26" width="240" x="10" y="13" as="geometry" />
+        </mxCell>
+        <mxCell id="g4-R13" parent="g4" style="html=0;whiteSpace=wrap;overflow=hidden;rounded=1;arcSize=8;fillColor=#FFFFFF;strokeColor=#D3DFE7;container=1;collapsible=0;recursiveResize=0;" value="" vertex="1">
+          <mxGeometry height="130" width="240" x="10" y="60" as="geometry" />
+        </mxCell>
+        <mxCell id="g4-R13-bar" parent="g4-R13" style="html=0;whiteSpace=wrap;overflow=hidden;rounded=0;arcSize=8;fillColor=#946218;strokeColor=none;container=1;collapsible=0;recursiveResize=0;" value="" vertex="1">
+          <mxGeometry height="5" width="240" as="geometry" />
+        </mxCell>
+        <mxCell id="g4-R13-title" parent="g4-R13" style="html=0;whiteSpace=wrap;overflow=hidden;text;fillColor=none;strokeColor=none;align=left;verticalAlign=top;spacing=0;fontFamily=DejaVu Sans;fontSize=18;fontColor=#946218;fontStyle=1;" value="R13 Soportar carga&#xa;coincidente." vertex="1">
+          <mxGeometry height="48" width="212" x="14" y="13" as="geometry" />
+        </mxCell>
+        <mxCell id="g4-R13-body" parent="g4-R13" style="html=0;whiteSpace=wrap;overflow=hidden;text;fillColor=none;strokeColor=none;align=left;verticalAlign=top;spacing=0;fontFamily=DejaVu Sans;fontSize=13;fontColor=#203D52;fontStyle=0;" value="Propuesto → A + T | V06" vertex="1">
+          <mxGeometry height="55" width="212" x="14" y="64" as="geometry" />
+        </mxCell>
+        <mxCell id="g4-R14" parent="g4" style="html=0;whiteSpace=wrap;overflow=hidden;rounded=1;arcSize=8;fillColor=#FFFFFF;strokeColor=#D3DFE7;container=1;collapsible=0;recursiveResize=0;" value="" vertex="1">
+          <mxGeometry height="130" width="240" x="10" y="203" as="geometry" />
+        </mxCell>
+        <mxCell id="g4-R14-bar" parent="g4-R14" style="html=0;whiteSpace=wrap;overflow=hidden;rounded=0;arcSize=8;fillColor=#946218;strokeColor=none;container=1;collapsible=0;recursiveResize=0;" value="" vertex="1">
+          <mxGeometry height="5" width="240" as="geometry" />
+        </mxCell>
+        <mxCell id="g4-R14-title" parent="g4-R14" style="html=0;whiteSpace=wrap;overflow=hidden;text;fillColor=none;strokeColor=none;align=left;verticalAlign=top;spacing=0;fontFamily=DejaVu Sans;fontSize=18;fontColor=#946218;fontStyle=1;" value="R14 Integrar solar,&#xa;batería y red." vertex="1">
+          <mxGeometry height="48" width="212" x="14" y="13" as="geometry" />
+        </mxCell>
+        <mxCell id="g4-R14-body" parent="g4-R14" style="html=0;whiteSpace=wrap;overflow=hidden;text;fillColor=none;strokeColor=none;align=left;verticalAlign=top;spacing=0;fontFamily=DejaVu Sans;fontSize=13;fontColor=#203D52;fontStyle=0;" value="Propuesto → I + T | V06" vertex="1">
+          <mxGeometry height="55" width="212" x="14" y="64" as="geometry" />
+        </mxCell>
+        <mxCell id="g4-R15" parent="g4" style="html=0;whiteSpace=wrap;overflow=hidden;rounded=1;arcSize=8;fillColor=#FFFFFF;strokeColor=#D3DFE7;container=1;collapsible=0;recursiveResize=0;" value="" vertex="1">
+          <mxGeometry height="130" width="240" x="10" y="346" as="geometry" />
+        </mxCell>
+        <mxCell id="g4-R15-bar" parent="g4-R15" style="html=0;whiteSpace=wrap;overflow=hidden;rounded=0;arcSize=8;fillColor=#946218;strokeColor=none;container=1;collapsible=0;recursiveResize=0;" value="" vertex="1">
+          <mxGeometry height="5" width="240" as="geometry" />
+        </mxCell>
+        <mxCell id="g4-R15-title" parent="g4-R15" style="html=0;whiteSpace=wrap;overflow=hidden;text;fillColor=none;strokeColor=none;align=left;verticalAlign=top;spacing=0;fontFamily=DejaVu Sans;fontSize=18;fontColor=#946218;fontStyle=1;" value="R15 Controlar calor,&#xa;condensación y&#xa;ventilación." vertex="1">
+          <mxGeometry height="72" width="212" x="14" y="13" as="geometry" />
+        </mxCell>
+        <mxCell id="g4-R15-body" parent="g4-R15" style="html=0;whiteSpace=wrap;overflow=hidden;text;fillColor=none;strokeColor=none;align=left;verticalAlign=top;spacing=0;fontFamily=DejaVu Sans;fontSize=13;fontColor=#203D52;fontStyle=0;" value="Propuesto → A + T | V02" vertex="1">
+          <mxGeometry height="31" width="212" x="14" y="88" as="geometry" />
+        </mxCell>
+        <mxCell id="g4-R16" parent="g4" style="html=0;whiteSpace=wrap;overflow=hidden;rounded=1;arcSize=8;fillColor=#FFFFFF;strokeColor=#D3DFE7;container=1;collapsible=0;recursiveResize=0;" value="" vertex="1">
+          <mxGeometry height="130" width="240" x="10" y="489" as="geometry" />
+        </mxCell>
+        <mxCell id="g4-R16-bar" parent="g4-R16" style="html=0;whiteSpace=wrap;overflow=hidden;rounded=0;arcSize=8;fillColor=#946218;strokeColor=none;container=1;collapsible=0;recursiveResize=0;" value="" vertex="1">
+          <mxGeometry height="5" width="240" as="geometry" />
+        </mxCell>
+        <mxCell id="g4-R16-title" parent="g4-R16" style="html=0;whiteSpace=wrap;overflow=hidden;text;fillColor=none;strokeColor=none;align=left;verticalAlign=top;spacing=0;fontFamily=DejaVu Sans;fontSize=18;fontColor=#946218;fontStyle=1;" value="R16 Mantener&#xa;funciones locales&#xa;esenciales." vertex="1">
+          <mxGeometry height="72" width="212" x="14" y="13" as="geometry" />
+        </mxCell>
+        <mxCell id="g4-R16-body" parent="g4-R16" style="html=0;whiteSpace=wrap;overflow=hidden;text;fillColor=none;strokeColor=none;align=left;verticalAlign=top;spacing=0;fontFamily=DejaVu Sans;fontSize=13;fontColor=#203D52;fontStyle=0;" value="Propuesto → T + D | V06" vertex="1">
+          <mxGeometry height="31" width="212" x="14" y="88" as="geometry" />
+        </mxCell>
+        <mxCell id="g5" parent="1" style="html=0;whiteSpace=wrap;overflow=hidden;rounded=1;arcSize=8;fillColor=#FFFFFF;strokeColor=#D3DFE7;container=1;collapsible=0;recursiveResize=0;" value="" vertex="1">
+          <mxGeometry height="635" width="260" x="1160" y="430" as="geometry" />
+        </mxCell>
+        <mxCell id="g5-head" parent="g5" style="html=0;whiteSpace=wrap;overflow=hidden;rounded=1;arcSize=8;fillColor=#665093;strokeColor=none;container=1;collapsible=0;recursiveResize=0;" value="" vertex="1">
+          <mxGeometry height="45" width="260" as="geometry" />
+        </mxCell>
+        <mxCell id="g5-title" parent="g5" style="html=0;whiteSpace=wrap;overflow=hidden;text;fillColor=none;strokeColor=none;align=left;verticalAlign=top;spacing=0;fontFamily=DejaVu Sans;fontSize=15;fontColor=#FFFFFF;fontStyle=1;" value="05 / DIGITAL &amp; BUSINESS" vertex="1">
+          <mxGeometry height="26" width="240" x="10" y="13" as="geometry" />
+        </mxCell>
+        <mxCell id="g5-R17" parent="g5" style="html=0;whiteSpace=wrap;overflow=hidden;rounded=1;arcSize=8;fillColor=#FFFFFF;strokeColor=#D3DFE7;container=1;collapsible=0;recursiveResize=0;" value="" vertex="1">
+          <mxGeometry height="130" width="240" x="10" y="60" as="geometry" />
+        </mxCell>
+        <mxCell id="g5-R17-bar" parent="g5-R17" style="html=0;whiteSpace=wrap;overflow=hidden;rounded=0;arcSize=8;fillColor=#665093;strokeColor=none;container=1;collapsible=0;recursiveResize=0;" value="" vertex="1">
+          <mxGeometry height="5" width="240" as="geometry" />
+        </mxCell>
+        <mxCell id="g5-R17-title" parent="g5-R17" style="html=0;whiteSpace=wrap;overflow=hidden;text;fillColor=none;strokeColor=none;align=left;verticalAlign=top;spacing=0;fontFamily=DejaVu Sans;fontSize=18;fontColor=#665093;fontStyle=1;" value="R17 Modelar activos&#xa;y estados." vertex="1">
+          <mxGeometry height="48" width="212" x="14" y="13" as="geometry" />
+        </mxCell>
+        <mxCell id="g5-R17-body" parent="g5-R17" style="html=0;whiteSpace=wrap;overflow=hidden;text;fillColor=none;strokeColor=none;align=left;verticalAlign=top;spacing=0;fontFamily=DejaVu Sans;fontSize=13;fontColor=#203D52;fontStyle=0;" value="Propuesto → I + T | V07" vertex="1">
+          <mxGeometry height="55" width="212" x="14" y="64" as="geometry" />
+        </mxCell>
+        <mxCell id="g5-R18" parent="g5" style="html=0;whiteSpace=wrap;overflow=hidden;rounded=1;arcSize=8;fillColor=#FFFFFF;strokeColor=#D3DFE7;container=1;collapsible=0;recursiveResize=0;" value="" vertex="1">
+          <mxGeometry height="130" width="240" x="10" y="203" as="geometry" />
+        </mxCell>
+        <mxCell id="g5-R18-bar" parent="g5-R18" style="html=0;whiteSpace=wrap;overflow=hidden;rounded=0;arcSize=8;fillColor=#665093;strokeColor=none;container=1;collapsible=0;recursiveResize=0;" value="" vertex="1">
+          <mxGeometry height="5" width="240" as="geometry" />
+        </mxCell>
+        <mxCell id="g5-R18-title" parent="g5-R18" style="html=0;whiteSpace=wrap;overflow=hidden;text;fillColor=none;strokeColor=none;align=left;verticalAlign=top;spacing=0;fontFamily=DejaVu Sans;fontSize=18;fontColor=#665093;fontStyle=1;" value="R18 Usar conectores&#xa;reemplazables." vertex="1">
+          <mxGeometry height="48" width="212" x="14" y="13" as="geometry" />
+        </mxCell>
+        <mxCell id="g5-R18-body" parent="g5-R18" style="html=0;whiteSpace=wrap;overflow=hidden;text;fillColor=none;strokeColor=none;align=left;verticalAlign=top;spacing=0;fontFamily=DejaVu Sans;fontSize=13;fontColor=#203D52;fontStyle=0;" value="Propuesto → I + T | V07" vertex="1">
+          <mxGeometry height="55" width="212" x="14" y="64" as="geometry" />
+        </mxCell>
+        <mxCell id="g5-R19" parent="g5" style="html=0;whiteSpace=wrap;overflow=hidden;rounded=1;arcSize=8;fillColor=#FFFFFF;strokeColor=#D3DFE7;container=1;collapsible=0;recursiveResize=0;" value="" vertex="1">
+          <mxGeometry height="130" width="240" x="10" y="346" as="geometry" />
+        </mxCell>
+        <mxCell id="g5-R19-bar" parent="g5-R19" style="html=0;whiteSpace=wrap;overflow=hidden;rounded=0;arcSize=8;fillColor=#665093;strokeColor=none;container=1;collapsible=0;recursiveResize=0;" value="" vertex="1">
+          <mxGeometry height="5" width="240" as="geometry" />
+        </mxCell>
+        <mxCell id="g5-R19-title" parent="g5-R19" style="html=0;whiteSpace=wrap;overflow=hidden;text;fillColor=none;strokeColor=none;align=left;verticalAlign=top;spacing=0;fontFamily=DejaVu Sans;fontSize=18;fontColor=#665093;fontStyle=1;" value="R19 Operar en modo&#xa;degradado." vertex="1">
+          <mxGeometry height="48" width="212" x="14" y="13" as="geometry" />
+        </mxCell>
+        <mxCell id="g5-R19-body" parent="g5-R19" style="html=0;whiteSpace=wrap;overflow=hidden;text;fillColor=none;strokeColor=none;align=left;verticalAlign=top;spacing=0;fontFamily=DejaVu Sans;fontSize=13;fontColor=#203D52;fontStyle=0;" value="Propuesto → T + D | V07" vertex="1">
+          <mxGeometry height="55" width="212" x="14" y="64" as="geometry" />
+        </mxCell>
+        <mxCell id="g5-R20" parent="g5" style="html=0;whiteSpace=wrap;overflow=hidden;rounded=1;arcSize=8;fillColor=#FFFFFF;strokeColor=#D3DFE7;container=1;collapsible=0;recursiveResize=0;" value="" vertex="1">
+          <mxGeometry height="130" width="240" x="10" y="489" as="geometry" />
+        </mxCell>
+        <mxCell id="g5-R20-bar" parent="g5-R20" style="html=0;whiteSpace=wrap;overflow=hidden;rounded=0;arcSize=8;fillColor=#665093;strokeColor=none;container=1;collapsible=0;recursiveResize=0;" value="" vertex="1">
+          <mxGeometry height="5" width="240" as="geometry" />
+        </mxCell>
+        <mxCell id="g5-R20-title" parent="g5-R20" style="html=0;whiteSpace=wrap;overflow=hidden;text;fillColor=none;strokeColor=none;align=left;verticalAlign=top;spacing=0;fontFamily=DejaVu Sans;fontSize=18;fontColor=#665093;fontStyle=1;" value="R20 Integrar POS e&#xa;inventario." vertex="1">
+          <mxGeometry height="48" width="212" x="14" y="13" as="geometry" />
+        </mxCell>
+        <mxCell id="g5-R20-body" parent="g5-R20" style="html=0;whiteSpace=wrap;overflow=hidden;text;fillColor=none;strokeColor=none;align=left;verticalAlign=top;spacing=0;fontFamily=DejaVu Sans;fontSize=13;fontColor=#203D52;fontStyle=0;" value="Propuesto → I + T | V08" vertex="1">
+          <mxGeometry height="55" width="212" x="14" y="64" as="geometry" />
+        </mxCell>
+        <mxCell id="g6" parent="1" style="html=0;whiteSpace=wrap;overflow=hidden;rounded=1;arcSize=8;fillColor=#FFFFFF;strokeColor=#D3DFE7;container=1;collapsible=0;recursiveResize=0;" value="" vertex="1">
+          <mxGeometry height="635" width="260" x="1440" y="430" as="geometry" />
+        </mxCell>
+        <mxCell id="g6-head" parent="g6" style="html=0;whiteSpace=wrap;overflow=hidden;rounded=1;arcSize=8;fillColor=#102C46;strokeColor=none;container=1;collapsible=0;recursiveResize=0;" value="" vertex="1">
+          <mxGeometry height="45" width="260" as="geometry" />
+        </mxCell>
+        <mxCell id="g6-title" parent="g6" style="html=0;whiteSpace=wrap;overflow=hidden;text;fillColor=none;strokeColor=none;align=left;verticalAlign=top;spacing=0;fontFamily=DejaVu Sans;fontSize=15;fontColor=#FFFFFF;fontStyle=1;" value="06 / LIFECYCLE" vertex="1">
+          <mxGeometry height="26" width="240" x="10" y="13" as="geometry" />
+        </mxCell>
+        <mxCell id="g6-R21" parent="g6" style="html=0;whiteSpace=wrap;overflow=hidden;rounded=1;arcSize=8;fillColor=#FFFFFF;strokeColor=#D3DFE7;container=1;collapsible=0;recursiveResize=0;" value="" vertex="1">
+          <mxGeometry height="130" width="240" x="10" y="60" as="geometry" />
+        </mxCell>
+        <mxCell id="g6-R21-bar" parent="g6-R21" style="html=0;whiteSpace=wrap;overflow=hidden;rounded=0;arcSize=8;fillColor=#102C46;strokeColor=none;container=1;collapsible=0;recursiveResize=0;" value="" vertex="1">
+          <mxGeometry height="5" width="240" as="geometry" />
+        </mxCell>
+        <mxCell id="g6-R21-title" parent="g6-R21" style="html=0;whiteSpace=wrap;overflow=hidden;text;fillColor=none;strokeColor=none;align=left;verticalAlign=top;spacing=0;fontFamily=DejaVu Sans;fontSize=18;fontColor=#102C46;fontStyle=1;" value="R21 Asistir demanda&#xa;y energía." vertex="1">
+          <mxGeometry height="48" width="212" x="14" y="13" as="geometry" />
+        </mxCell>
+        <mxCell id="g6-R21-body" parent="g6-R21" style="html=0;whiteSpace=wrap;overflow=hidden;text;fillColor=none;strokeColor=none;align=left;verticalAlign=top;spacing=0;fontFamily=DejaVu Sans;fontSize=13;fontColor=#203D52;fontStyle=0;" value="Propuesto → A + D | V07" vertex="1">
+          <mxGeometry height="55" width="212" x="14" y="64" as="geometry" />
+        </mxCell>
+        <mxCell id="g6-R22" parent="g6" style="html=0;whiteSpace=wrap;overflow=hidden;rounded=1;arcSize=8;fillColor=#FFFFFF;strokeColor=#D3DFE7;container=1;collapsible=0;recursiveResize=0;" value="" vertex="1">
+          <mxGeometry height="130" width="240" x="10" y="203" as="geometry" />
+        </mxCell>
+        <mxCell id="g6-R22-bar" parent="g6-R22" style="html=0;whiteSpace=wrap;overflow=hidden;rounded=0;arcSize=8;fillColor=#102C46;strokeColor=none;container=1;collapsible=0;recursiveResize=0;" value="" vertex="1">
+          <mxGeometry height="5" width="240" as="geometry" />
+        </mxCell>
+        <mxCell id="g6-R22-title" parent="g6-R22" style="html=0;whiteSpace=wrap;overflow=hidden;text;fillColor=none;strokeColor=none;align=left;verticalAlign=top;spacing=0;fontFamily=DejaVu Sans;fontSize=18;fontColor=#102C46;fontStyle=1;" value="R22 Calificar la&#xa;asamblea instalada." vertex="1">
+          <mxGeometry height="48" width="212" x="14" y="13" as="geometry" />
+        </mxCell>
+        <mxCell id="g6-R22-body" parent="g6-R22" style="html=0;whiteSpace=wrap;overflow=hidden;text;fillColor=none;strokeColor=none;align=left;verticalAlign=top;spacing=0;fontFamily=DejaVu Sans;fontSize=13;fontColor=#203D52;fontStyle=0;" value="Propuesto → I + T | V05" vertex="1">
+          <mxGeometry height="55" width="212" x="14" y="64" as="geometry" />
+        </mxCell>
+        <mxCell id="g6-R23" parent="g6" style="html=0;whiteSpace=wrap;overflow=hidden;rounded=1;arcSize=8;fillColor=#FFFFFF;strokeColor=#D3DFE7;container=1;collapsible=0;recursiveResize=0;" value="" vertex="1">
+          <mxGeometry height="130" width="240" x="10" y="346" as="geometry" />
+        </mxCell>
+        <mxCell id="g6-R23-bar" parent="g6-R23" style="html=0;whiteSpace=wrap;overflow=hidden;rounded=0;arcSize=8;fillColor=#102C46;strokeColor=none;container=1;collapsible=0;recursiveResize=0;" value="" vertex="1">
+          <mxGeometry height="5" width="240" as="geometry" />
+        </mxCell>
+        <mxCell id="g6-R23-title" parent="g6-R23" style="html=0;whiteSpace=wrap;overflow=hidden;text;fillColor=none;strokeColor=none;align=left;verticalAlign=top;spacing=0;fontFamily=DejaVu Sans;fontSize=18;fontColor=#102C46;fontStyle=1;" value="R23 Correlacionar&#xa;modelos y prototipo." vertex="1">
+          <mxGeometry height="48" width="212" x="14" y="13" as="geometry" />
+        </mxCell>
+        <mxCell id="g6-R23-body" parent="g6-R23" style="html=0;whiteSpace=wrap;overflow=hidden;text;fillColor=none;strokeColor=none;align=left;verticalAlign=top;spacing=0;fontFamily=DejaVu Sans;fontSize=13;fontColor=#203D52;fontStyle=0;" value="Propuesto → A + T | V08" vertex="1">
+          <mxGeometry height="55" width="212" x="14" y="64" as="geometry" />
+        </mxCell>
+        <mxCell id="g6-R24" parent="g6" style="html=0;whiteSpace=wrap;overflow=hidden;rounded=1;arcSize=8;fillColor=#FFFFFF;strokeColor=#D3DFE7;container=1;collapsible=0;recursiveResize=0;" value="" vertex="1">
+          <mxGeometry height="130" width="240" x="10" y="489" as="geometry" />
+        </mxCell>
+        <mxCell id="g6-R24-bar" parent="g6-R24" style="html=0;whiteSpace=wrap;overflow=hidden;rounded=0;arcSize=8;fillColor=#102C46;strokeColor=none;container=1;collapsible=0;recursiveResize=0;" value="" vertex="1">
+          <mxGeometry height="5" width="240" as="geometry" />
+        </mxCell>
+        <mxCell id="g6-R24-title" parent="g6-R24" style="html=0;whiteSpace=wrap;overflow=hidden;text;fillColor=none;strokeColor=none;align=left;verticalAlign=top;spacing=0;fontFamily=DejaVu Sans;fontSize=18;fontColor=#102C46;fontStyle=1;" value="R24 Mantener&#xa;configuración y&#xa;trazabilidad." vertex="1">
+          <mxGeometry height="72" width="212" x="14" y="13" as="geometry" />
+        </mxCell>
+        <mxCell id="g6-R24-body" parent="g6-R24" style="html=0;whiteSpace=wrap;overflow=hidden;text;fillColor=none;strokeColor=none;align=left;verticalAlign=top;spacing=0;fontFamily=DejaVu Sans;fontSize=13;fontColor=#203D52;fontStyle=0;" value="Propuesto → I + T | V08" vertex="1">
+          <mxGeometry height="31" width="212" x="14" y="88" as="geometry" />
+        </mxCell>
+        <mxCell id="baseline-note" parent="1" style="html=0;whiteSpace=wrap;overflow=hidden;rounded=1;arcSize=8;fillColor=#FFF8E8;strokeColor=#946218;container=1;collapsible=0;recursiveResize=0;" value="" vertex="1">
+          <mxGeometry height="38" width="1090" x="40" y="1070" as="geometry" />
+        </mxCell>
+        <mxCell id="baseline-note-text" parent="baseline-note" style="html=0;whiteSpace=wrap;overflow=hidden;text;fillColor=none;strokeColor=none;align=left;verticalAlign=top;spacing=0;fontFamily=DejaVu Sans;fontSize=13;fontColor=#946218;fontStyle=1;" value="Baseline rule: no value is treated as a certification merely because it appears in the concept art." vertex="1">
+          <mxGeometry height="22" width="1066" x="12" y="8" as="geometry" />
+        </mxCell>
+        <mxCell id="trace-note" parent="1" style="html=0;whiteSpace=wrap;overflow=hidden;rounded=1;arcSize=8;fillColor=#F3F0FA;strokeColor=#665093;container=1;collapsible=0;recursiveResize=0;" value="" vertex="1">
+          <mxGeometry height="38" width="560" x="1160" y="1070" as="geometry" />
+        </mxCell>
+        <mxCell id="trace-note-text" parent="trace-note" style="html=0;whiteSpace=wrap;overflow=hidden;text;fillColor=none;strokeColor=none;align=left;verticalAlign=top;spacing=0;fontFamily=DejaVu Sans;fontSize=13;fontColor=#665093;fontStyle=1;" value="Traceability: R01–R24 → V01–V08 on tab 04." vertex="1">
+          <mxGeometry height="22" width="536" x="12" y="8" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="icecream-2" name="02 Architecture">
+    <mxGraphModel dx="1760" dy="1160" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1760" pageHeight="1160" math="0" shadow="0" background="#F4F7FA">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="e1" value="" style="edgeStyle=none;html=0;rounded=0;strokeColor=#B44036;strokeWidth=2;exitX=1.0000;exitY=0.4894;exitDx=0;exitDy=0;entryX=0.0000;entryY=0.4894;entryDx=0;entryDy=0;endArrow=block;endFill=1;" edge="1" parent="1" source="physical" target="safety">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e2" value="" style="edgeStyle=none;html=0;rounded=0;strokeColor=#176F9B;strokeWidth=2;exitX=1.0000;exitY=0.7872;exitDx=0;exitDy=0;entryX=0.5000;entryY=1.0000;entryDx=0;entryDy=0;endArrow=block;endFill=1;dashed=1;dashPattern=7 5;" edge="1" parent="1" source="physical" target="data">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="580" y="320" />
+              <mxPoint x="580" y="405" />
+              <mxPoint x="1470" y="405" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e3" value="" style="edgeStyle=none;html=0;rounded=0;strokeColor=#B44036;strokeWidth=2;exitX=0.0000;exitY=0.8298;exitDx=0;exitDy=0;entryX=1.0000;entryY=0.8298;entryDx=0;entryDy=0;endArrow=block;endFill=1;" edge="1" parent="1" source="safety" target="physical">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e4" value="" style="edgeStyle=none;html=0;rounded=0;strokeColor=#397A5B;strokeWidth=2;exitX=0.5000;exitY=1.0000;exitDx=0;exitDy=0;entryX=0.5000;entryY=0.0000;entryDx=0;entryDy=0;endArrow=block;endFill=1;" edge="1" parent="1" source="physical" target="operator">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e5" value="" style="edgeStyle=none;html=0;rounded=0;strokeColor=#B44036;strokeWidth=2;exitX=0.2600;exitY=1.0000;exitDx=0;exitDy=0;entryX=0.5000;entryY=0.0000;entryDx=0;entryDy=0;endArrow=block;endFill=1;" edge="1" parent="1" source="safety" target="operator">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="760" y="430" />
+              <mxPoint x="290" y="430" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e6" value="" style="edgeStyle=none;html=0;rounded=0;strokeColor=#665093;strokeWidth=2;exitX=0.3400;exitY=1.0000;exitDx=0;exitDy=0;entryX=0.5000;entryY=0.0000;entryDx=0;entryDy=0;endArrow=block;endFill=1;dashed=1;dashPattern=7 5;" edge="1" parent="1" source="data" target="business">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1390" y="425" />
+              <mxPoint x="880" y="425" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e7" value="" style="edgeStyle=none;html=0;rounded=0;strokeColor=#946218;strokeWidth=2;exitX=1.0000;exitY=0.5000;exitDx=0;exitDy=0;entryX=0.0000;entryY=0.5000;entryDx=0;entryDy=0;endArrow=block;endFill=1;dashed=1;dashPattern=7 5;" edge="1" parent="1" source="business" target="models">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e8" value="" style="edgeStyle=none;html=0;rounded=0;strokeColor=#102C46;strokeWidth=2;exitX=0.0000;exitY=0.8182;exitDx=0;exitDy=0;entryX=0.5000;entryY=1.0000;entryDx=0;entryDy=0;endArrow=block;endFill=1;dashed=1;dashPattern=7 5;" edge="1" parent="1" source="models" target="operator">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1180" y="665" />
+              <mxPoint x="1180" y="760" />
+              <mxPoint x="290" y="760" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="header" value="" style="html=0;whiteSpace=wrap;overflow=hidden;rounded=0;arcSize=8;fillColor=#102C46;strokeColor=none;container=1;collapsible=0;recursiveResize=0;" vertex="1" parent="1">
+          <mxGeometry x="0" y="0" width="1760" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="title" value="OpenTwin | Ice Cream &amp; Desserts Truck" style="html=0;whiteSpace=wrap;overflow=hidden;text;fillColor=none;strokeColor=none;align=left;verticalAlign=top;spacing=0;fontFamily=DejaVu Sans;fontSize=30;fontColor=#FFFFFF;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="40" y="18" width="1350" height="42" as="geometry" />
+        </mxCell>
+        <mxCell id="subtitle" value="Functional allocation | Closed-loop service with a local safety boundary" style="html=0;whiteSpace=wrap;overflow=hidden;text;fillColor=none;strokeColor=none;align=left;verticalAlign=top;spacing=0;fontFamily=DejaVu Sans;fontSize=15;fontColor=#C8DCEB;fontStyle=0;" vertex="1" parent="1">
+          <mxGeometry x="40" y="62" width="1370" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="page-no" value="02 / ARCHITECTURE" style="html=0;whiteSpace=wrap;overflow=hidden;text;fillColor=none;strokeColor=none;align=right;verticalAlign=top;spacing=0;fontFamily=DejaVu Sans;fontSize=17;fontColor=#FFFFFF;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="1450" y="27" width="270" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="footer" value="JFXAI4FTM • Proposed requirements baseline v0.1 • 12 Sep 2026 • Concept artwork is not a dimensioned engineering design" style="html=0;whiteSpace=wrap;overflow=hidden;text;fillColor=none;strokeColor=none;align=left;verticalAlign=top;spacing=0;fontFamily=DejaVu Sans;fontSize=12;fontColor=#526779;fontStyle=0;" vertex="1" parent="1">
+          <mxGeometry x="40" y="1120" width="1680" height="22" as="geometry" />
+        </mxCell>
+        <mxCell id="physical" value="" style="html=0;whiteSpace=wrap;overflow=hidden;rounded=1;arcSize=8;fillColor=#FFFFFF;strokeColor=#D3DFE7;container=1;collapsible=0;recursiveResize=0;" vertex="1" parent="1">
+          <mxGeometry x="40" y="135" width="500" height="235" as="geometry" />
+        </mxCell>
+        <mxCell id="physical-bar" value="" style="html=0;whiteSpace=wrap;overflow=hidden;rounded=0;arcSize=8;fillColor=#176F9B;strokeColor=none;container=1;collapsible=0;recursiveResize=0;" vertex="1" parent="physical">
+          <mxGeometry x="0" y="0" width="500" height="5" as="geometry" />
+        </mxCell>
+        <mxCell id="physical-title" value="Physical truck modules" style="html=0;whiteSpace=wrap;overflow=hidden;text;fillColor=none;strokeColor=none;align=left;verticalAlign=top;spacing=0;fontFamily=DejaVu Sans;fontSize=18;fontColor=#176F9B;fontStyle=1;" vertex="1" parent="physical">
+          <mxGeometry x="14" y="13" width="472" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="physical-body" value="Road chassis and body&#xa;Insulated cold room and display&#xa;Freezers / refrigeration / HVAC&#xa;Serving hatch, POS and accessibility&#xa;PV, battery and shore interface&#xa;Fresh / grey / black water&#xa;R01–R16" style="html=0;whiteSpace=wrap;overflow=hidden;text;fillColor=none;strokeColor=none;align=left;verticalAlign=top;spacing=0;fontFamily=DejaVu Sans;fontSize=17;fontColor=#203D52;fontStyle=0;" vertex="1" parent="physical">
+          <mxGeometry x="14" y="41" width="472" height="183" as="geometry" />
+        </mxCell>
+        <mxCell id="safety" value="" style="html=0;whiteSpace=wrap;overflow=hidden;rounded=1;arcSize=8;fillColor=#FFF9F7;strokeColor=#D3DFE7;container=1;collapsible=0;recursiveResize=0;" vertex="1" parent="1">
+          <mxGeometry x="630" y="135" width="500" height="235" as="geometry" />
+        </mxCell>
+        <mxCell id="safety-bar" value="" style="html=0;whiteSpace=wrap;overflow=hidden;rounded=0;arcSize=8;fillColor=#B44036;strokeColor=none;container=1;collapsible=0;recursiveResize=0;" vertex="1" parent="safety">
+          <mxGeometry x="0" y="0" width="500" height="5" as="geometry" />
+        </mxCell>
+        <mxCell id="safety-title" value="Local food, thermal and electrical safety" style="html=0;whiteSpace=wrap;overflow=hidden;text;fillColor=none;strokeColor=none;align=left;verticalAlign=top;spacing=0;fontFamily=DejaVu Sans;fontSize=18;fontColor=#B44036;fontStyle=1;" vertex="1" parent="safety">
+          <mxGeometry x="14" y="13" width="472" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="safety-body" value="Temperature sensing and alarms&#xa;BMS, overcurrent and ground-fault protection&#xa;Emergency disconnect and local reset&#xa;Leak / overflow and utility isolation&#xa;Optional hot-service variant review&#xa;Works without cloud or AI&#xa;R05–R16, R19" style="html=0;whiteSpace=wrap;overflow=hidden;text;fillColor=none;strokeColor=none;align=left;verticalAlign=top;spacing=0;fontFamily=DejaVu Sans;fontSize=17;fontColor=#203D52;fontStyle=0;" vertex="1" parent="safety">
+          <mxGeometry x="14" y="41" width="472" height="183" as="geometry" />
+        </mxCell>
+        <mxCell id="data" value="" style="html=0;whiteSpace=wrap;overflow=hidden;rounded=1;arcSize=8;fillColor=#FFFFFF;strokeColor=#D3DFE7;container=1;collapsible=0;recursiveResize=0;" vertex="1" parent="1">
+          <mxGeometry x="1220" y="135" width="500" height="235" as="geometry" />
+        </mxCell>
+        <mxCell id="data-bar" value="" style="html=0;whiteSpace=wrap;overflow=hidden;rounded=0;arcSize=8;fillColor=#665093;strokeColor=none;container=1;collapsible=0;recursiveResize=0;" vertex="1" parent="data">
+          <mxGeometry x="0" y="0" width="500" height="5" as="geometry" />
+        </mxCell>
+        <mxCell id="data-title" value="OpenTwin and data services" style="html=0;whiteSpace=wrap;overflow=hidden;text;fillColor=none;strokeColor=none;align=left;verticalAlign=top;spacing=0;fontFamily=DejaVu Sans;fontSize=18;fontColor=#665093;fontStyle=1;" vertex="1" parent="data">
+          <mxGeometry x="14" y="13" width="472" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="data-body" value="Asset registry: truck, freezer, water, energy&#xa;MQTT / documented API adapters&#xa;Local buffer and data-quality flags&#xa;History, audit and role access&#xa;On-premise or cloud deployment&#xa;R17–R21" style="html=0;whiteSpace=wrap;overflow=hidden;text;fillColor=none;strokeColor=none;align=left;verticalAlign=top;spacing=0;fontFamily=DejaVu Sans;fontSize=17;fontColor=#203D52;fontStyle=0;" vertex="1" parent="data">
+          <mxGeometry x="14" y="41" width="472" height="183" as="geometry" />
+        </mxCell>
+        <mxCell id="operator" value="" style="html=0;whiteSpace=wrap;overflow=hidden;rounded=1;arcSize=8;fillColor=#FFFFFF;strokeColor=#D3DFE7;container=1;collapsible=0;recursiveResize=0;" vertex="1" parent="1">
+          <mxGeometry x="40" y="485" width="500" height="220" as="geometry" />
+        </mxCell>
+        <mxCell id="operator-bar" value="" style="html=0;whiteSpace=wrap;overflow=hidden;rounded=0;arcSize=8;fillColor=#397A5B;strokeColor=none;container=1;collapsible=0;recursiveResize=0;" vertex="1" parent="operator">
+          <mxGeometry x="0" y="0" width="500" height="5" as="geometry" />
+        </mxCell>
+        <mxCell id="operator-title" value="Operator and public service" style="html=0;whiteSpace=wrap;overflow=hidden;text;fillColor=none;strokeColor=none;align=left;verticalAlign=top;spacing=0;fontFamily=DejaVu Sans;fontSize=18;fontColor=#397A5B;fontStyle=1;" vertex="1" parent="operator">
+          <mxGeometry x="14" y="13" width="472" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="operator-body" value="Transport → deploy → serve → secure&#xa;Pre-service readiness checklist&#xa;Accessible queue and serving interface&#xa;Allergen and product information&#xa;Manual mode and alarm escalation&#xa;R01, R04, R08, R11, R16" style="html=0;whiteSpace=wrap;overflow=hidden;text;fillColor=none;strokeColor=none;align=left;verticalAlign=top;spacing=0;fontFamily=DejaVu Sans;fontSize=17;fontColor=#203D52;fontStyle=0;" vertex="1" parent="operator">
+          <mxGeometry x="14" y="41" width="472" height="168" as="geometry" />
+        </mxCell>
+        <mxCell id="business" value="" style="html=0;whiteSpace=wrap;overflow=hidden;rounded=1;arcSize=8;fillColor=#FFFFFF;strokeColor=#D3DFE7;container=1;collapsible=0;recursiveResize=0;" vertex="1" parent="1">
+          <mxGeometry x="630" y="485" width="500" height="220" as="geometry" />
+        </mxCell>
+        <mxCell id="business-bar" value="" style="html=0;whiteSpace=wrap;overflow=hidden;rounded=0;arcSize=8;fillColor=#946218;strokeColor=none;container=1;collapsible=0;recursiveResize=0;" vertex="1" parent="business">
+          <mxGeometry x="0" y="0" width="500" height="5" as="geometry" />
+        </mxCell>
+        <mxCell id="business-title" value="Business and fleet workflow" style="html=0;whiteSpace=wrap;overflow=hidden;text;fillColor=none;strokeColor=none;align=left;verticalAlign=top;spacing=0;fontFamily=DejaVu Sans;fontSize=18;fontColor=#946218;fontStyle=1;" vertex="1" parent="business">
+          <mxGeometry x="14" y="13" width="472" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="business-body" value="Menu, POS and payments&#xa;Inventory and lot traceability&#xa;Location, route and shift planning&#xa;Maintenance work orders&#xa;Analytics with human approval&#xa;R17–R21, R24" style="html=0;whiteSpace=wrap;overflow=hidden;text;fillColor=none;strokeColor=none;align=left;verticalAlign=top;spacing=0;fontFamily=DejaVu Sans;fontSize=17;fontColor=#203D52;fontStyle=0;" vertex="1" parent="business">
+          <mxGeometry x="14" y="41" width="472" height="168" as="geometry" />
+        </mxCell>
+        <mxCell id="models" value="" style="html=0;whiteSpace=wrap;overflow=hidden;rounded=1;arcSize=8;fillColor=#FFFFFF;strokeColor=#D3DFE7;container=1;collapsible=0;recursiveResize=0;" vertex="1" parent="1">
+          <mxGeometry x="1220" y="485" width="500" height="220" as="geometry" />
+        </mxCell>
+        <mxCell id="models-bar" value="" style="html=0;whiteSpace=wrap;overflow=hidden;rounded=0;arcSize=8;fillColor=#102C46;strokeColor=none;container=1;collapsible=0;recursiveResize=0;" vertex="1" parent="models">
+          <mxGeometry x="0" y="0" width="500" height="5" as="geometry" />
+        </mxCell>
+        <mxCell id="models-title" value="MBSE, simulation and bounded AI" style="html=0;whiteSpace=wrap;overflow=hidden;text;fillColor=none;strokeColor=none;align=left;verticalAlign=top;spacing=0;fontFamily=DejaVu Sans;fontSize=18;fontColor=#102C46;fontStyle=1;" vertex="1" parent="models">
+          <mxGeometry x="14" y="13" width="472" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="models-body" value="Thermal and cold-chain model&#xa;Energy and battery scenarios&#xa;Water and waste balance&#xa;Demand and maintenance assistance&#xa;Model-test correlation before claims&#xa;AI cannot bypass protection&#xa;R15, R21–R23" style="html=0;whiteSpace=wrap;overflow=hidden;text;fillColor=none;strokeColor=none;align=left;verticalAlign=top;spacing=0;fontFamily=DejaVu Sans;fontSize=17;fontColor=#203D52;fontStyle=0;" vertex="1" parent="models">
+          <mxGeometry x="14" y="41" width="472" height="168" as="geometry" />
+        </mxCell>
+        <mxCell id="mode" value="" style="html=0;whiteSpace=wrap;overflow=hidden;rounded=1;arcSize=8;fillColor=#FFFFFF;strokeColor=#D3DFE7;container=1;collapsible=0;recursiveResize=0;" vertex="1" parent="1">
+          <mxGeometry x="40" y="790" width="530" height="178" as="geometry" />
+        </mxCell>
+        <mxCell id="mode-bar" value="" style="html=0;whiteSpace=wrap;overflow=hidden;rounded=0;arcSize=8;fillColor=#176F9B;strokeColor=none;container=1;collapsible=0;recursiveResize=0;" vertex="1" parent="mode">
+          <mxGeometry x="0" y="0" width="530" height="5" as="geometry" />
+        </mxCell>
+        <mxCell id="mode-title" value="Deployment modes" style="html=0;whiteSpace=wrap;overflow=hidden;text;fillColor=none;strokeColor=none;align=left;verticalAlign=top;spacing=0;fontFamily=DejaVu Sans;fontSize=18;fontColor=#176F9B;fontStyle=1;" vertex="1" parent="mode">
+          <mxGeometry x="14" y="13" width="502" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="mode-body" value="Transport: secured modules and rated loads.&#xa;Service: stable parking, clear egress and hygiene checks.&#xa;Maintenance: isolated equipment, controlled access and&#xa;logged intervention." style="html=0;whiteSpace=wrap;overflow=hidden;text;fillColor=none;strokeColor=none;align=left;verticalAlign=top;spacing=0;fontFamily=DejaVu Sans;fontSize=16;fontColor=#203D52;fontStyle=0;" vertex="1" parent="mode">
+          <mxGeometry x="14" y="41" width="502" height="126" as="geometry" />
+        </mxCell>
+        <mxCell id="boundary" value="" style="html=0;whiteSpace=wrap;overflow=hidden;rounded=1;arcSize=8;fillColor=#FFFFFF;strokeColor=#D3DFE7;container=1;collapsible=0;recursiveResize=0;" vertex="1" parent="1">
+          <mxGeometry x="615" y="790" width="530" height="178" as="geometry" />
+        </mxCell>
+        <mxCell id="boundary-bar" value="" style="html=0;whiteSpace=wrap;overflow=hidden;rounded=0;arcSize=8;fillColor=#B44036;strokeColor=none;container=1;collapsible=0;recursiveResize=0;" vertex="1" parent="boundary">
+          <mxGeometry x="0" y="0" width="530" height="5" as="geometry" />
+        </mxCell>
+        <mxCell id="boundary-title" value="Control boundary" style="html=0;whiteSpace=wrap;overflow=hidden;text;fillColor=none;strokeColor=none;align=left;verticalAlign=top;spacing=0;fontFamily=DejaVu Sans;fontSize=18;fontColor=#B44036;fontStyle=1;" vertex="1" parent="boundary">
+          <mxGeometry x="14" y="13" width="502" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="boundary-body" value="Local protection is authoritative for temperature alarms, BMS,&#xa;emergency stop, leaks and any approved hot-service hazards.&#xa;Supervisory software reports and recommends." style="html=0;whiteSpace=wrap;overflow=hidden;text;fillColor=none;strokeColor=none;align=left;verticalAlign=top;spacing=0;fontFamily=DejaVu Sans;fontSize=16;fontColor=#203D52;fontStyle=0;" vertex="1" parent="boundary">
+          <mxGeometry x="14" y="41" width="502" height="126" as="geometry" />
+        </mxCell>
+        <mxCell id="interfaces" value="" style="html=0;whiteSpace=wrap;overflow=hidden;rounded=1;arcSize=8;fillColor=#FFFFFF;strokeColor=#D3DFE7;container=1;collapsible=0;recursiveResize=0;" vertex="1" parent="1">
+          <mxGeometry x="1190" y="790" width="530" height="178" as="geometry" />
+        </mxCell>
+        <mxCell id="interfaces-bar" value="" style="html=0;whiteSpace=wrap;overflow=hidden;rounded=0;arcSize=8;fillColor=#665093;strokeColor=none;container=1;collapsible=0;recursiveResize=0;" vertex="1" parent="interfaces">
+          <mxGeometry x="0" y="0" width="530" height="5" as="geometry" />
+        </mxCell>
+        <mxCell id="interfaces-title" value="Open integration rule" style="html=0;whiteSpace=wrap;overflow=hidden;text;fillColor=none;strokeColor=none;align=left;verticalAlign=top;spacing=0;fontFamily=DejaVu Sans;fontSize=18;fontColor=#665093;fontStyle=1;" vertex="1" parent="interfaces">
+          <mxGeometry x="14" y="13" width="502" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="interfaces-body" value="Linux, OpenHAB, Node-RED, MQTT, Grafana and OpenTwin are&#xa;candidate replaceable integrations. Each interface needs an&#xa;ICD, permissions, units, version and replay test." style="html=0;whiteSpace=wrap;overflow=hidden;text;fillColor=none;strokeColor=none;align=left;verticalAlign=top;spacing=0;fontFamily=DejaVu Sans;fontSize=16;fontColor=#203D52;fontStyle=0;" vertex="1" parent="interfaces">
+          <mxGeometry x="14" y="41" width="502" height="126" as="geometry" />
+        </mxCell>
+        <mxCell id="architecture-note" value="" style="html=0;whiteSpace=wrap;overflow=hidden;rounded=1;arcSize=8;fillColor=#FFFFFF;strokeColor=#D3DFE7;container=1;collapsible=0;recursiveResize=0;" vertex="1" parent="1">
+          <mxGeometry x="40" y="990" width="1680" height="115" as="geometry" />
+        </mxCell>
+        <mxCell id="architecture-note-bar" value="" style="html=0;whiteSpace=wrap;overflow=hidden;rounded=0;arcSize=8;fillColor=#102C46;strokeColor=none;container=1;collapsible=0;recursiveResize=0;" vertex="1" parent="architecture-note">
+          <mxGeometry x="0" y="0" width="1680" height="5" as="geometry" />
+        </mxCell>
+        <mxCell id="architecture-note-title" value="Failure behavior" style="html=0;whiteSpace=wrap;overflow=hidden;text;fillColor=none;strokeColor=none;align=left;verticalAlign=top;spacing=0;fontFamily=DejaVu Sans;fontSize=18;fontColor=#102C46;fontStyle=1;" vertex="1" parent="architecture-note">
+          <mxGeometry x="14" y="13" width="1652" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="architecture-note-body" value="Cloud loss, AI loss, malformed telemetry or stale sensors shall produce an explicit degraded state. The truck shall not infer safety from silence and shall not grant an LLM authority over qualified&#xa;interlocks." style="html=0;whiteSpace=wrap;overflow=hidden;text;fillColor=none;strokeColor=none;align=left;verticalAlign=top;spacing=0;fontFamily=DejaVu Sans;fontSize=17;fontColor=#203D52;fontStyle=0;" vertex="1" parent="architecture-note">
+          <mxGeometry x="14" y="41" width="1652" height="63" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="icecream-3" name="03 Materials">
+    <mxGraphModel dx="1760" dy="1160" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1760" pageHeight="1160" math="0" shadow="0" background="#F4F7FA">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="header" value="" style="html=0;whiteSpace=wrap;overflow=hidden;rounded=0;arcSize=8;fillColor=#102C46;strokeColor=none;container=1;collapsible=0;recursiveResize=0;" vertex="1" parent="1">
+          <mxGeometry x="0" y="0" width="1760" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="title" value="OpenTwin | Ice Cream &amp; Desserts Truck" style="html=0;whiteSpace=wrap;overflow=hidden;text;fillColor=none;strokeColor=none;align=left;verticalAlign=top;spacing=0;fontFamily=DejaVu Sans;fontSize=30;fontColor=#FFFFFF;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="40" y="18" width="1350" height="42" as="geometry" />
+        </mxCell>
+        <mxCell id="subtitle" value="Material allocation and fire-risk controls | Qualify the installed assembly, not a material name" style="html=0;whiteSpace=wrap;overflow=hidden;text;fillColor=none;strokeColor=none;align=left;verticalAlign=top;spacing=0;fontFamily=DejaVu Sans;fontSize=15;fontColor=#C8DCEB;fontStyle=0;" vertex="1" parent="1">
+          <mxGeometry x="40" y="62" width="1370" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="page-no" value="03 / MATERIALS" style="html=0;whiteSpace=wrap;overflow=hidden;text;fillColor=none;strokeColor=none;align=right;verticalAlign=top;spacing=0;fontFamily=DejaVu Sans;fontSize=17;fontColor=#FFFFFF;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="1450" y="27" width="270" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="footer" value="JFXAI4FTM • Proposed requirements baseline v0.1 • 12 Sep 2026 • Concept artwork is not a dimensioned engineering design" style="html=0;whiteSpace=wrap;overflow=hidden;text;fillColor=none;strokeColor=none;align=left;verticalAlign=top;spacing=0;fontFamily=DejaVu Sans;fontSize=12;fontColor=#526779;fontStyle=0;" vertex="1" parent="1">
+          <mxGeometry x="40" y="1120" width="1680" height="22" as="geometry" />
+        </mxCell>
+        <mxCell id="cold-zone" value="" style="html=0;whiteSpace=wrap;overflow=hidden;rounded=1;arcSize=8;fillColor=#FFFFFF;strokeColor=#D3DFE7;container=1;collapsible=0;recursiveResize=0;" vertex="1" parent="1">
+          <mxGeometry x="40" y="130" width="530" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="cold-zone-bar" value="" style="html=0;whiteSpace=wrap;overflow=hidden;rounded=0;arcSize=8;fillColor=#176F9B;strokeColor=none;container=1;collapsible=0;recursiveResize=0;" vertex="1" parent="cold-zone">
+          <mxGeometry x="0" y="0" width="530" height="5" as="geometry" />
+        </mxCell>
+        <mxCell id="cold-zone-title" value="COLD ZONE | body and decoration" style="html=0;whiteSpace=wrap;overflow=hidden;text;fillColor=none;strokeColor=none;align=left;verticalAlign=top;spacing=0;fontFamily=DejaVu Sans;fontSize=18;fontColor=#176F9B;fontStyle=1;" vertex="1" parent="cold-zone">
+          <mxGeometry x="14" y="13" width="502" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="cold-zone-body" value="GFRP, aluminum and optional CFRP or synthetic finishes may&#xa;be evaluated in protected areas. Maintain cleanability,&#xa;insulation continuity and repair access." style="html=0;whiteSpace=wrap;overflow=hidden;text;fillColor=none;strokeColor=none;align=left;verticalAlign=top;spacing=0;fontFamily=DejaVu Sans;fontSize=16;fontColor=#203D52;fontStyle=0;" vertex="1" parent="cold-zone">
+          <mxGeometry x="14" y="41" width="502" height="88" as="geometry" />
+        </mxCell>
+        <mxCell id="hot-zone" value="" style="html=0;whiteSpace=wrap;overflow=hidden;rounded=1;arcSize=8;fillColor=#FFF9F7;strokeColor=#D3DFE7;container=1;collapsible=0;recursiveResize=0;" vertex="1" parent="1">
+          <mxGeometry x="615" y="130" width="530" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="hot-zone-bar" value="" style="html=0;whiteSpace=wrap;overflow=hidden;rounded=0;arcSize=8;fillColor=#B44036;strokeColor=none;container=1;collapsible=0;recursiveResize=0;" vertex="1" parent="hot-zone">
+          <mxGeometry x="0" y="0" width="530" height="5" as="geometry" />
+        </mxCell>
+        <mxCell id="hot-zone-title" value="HOT-SERVICE OPTION | controlled change" style="html=0;whiteSpace=wrap;overflow=hidden;text;fillColor=none;strokeColor=none;align=left;verticalAlign=top;spacing=0;fontFamily=DejaVu Sans;fontSize=18;fontColor=#B44036;fontStyle=1;" vertex="1" parent="hot-zone">
+          <mxGeometry x="14" y="13" width="502" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="hot-zone-body" value="Base variant: frozen service without open flame. Coffee, hot&#xa;toppings or cooking adds separate exhaust, grease, detection,&#xa;suppression, ventilation and clearance requirements." style="html=0;whiteSpace=wrap;overflow=hidden;text;fillColor=none;strokeColor=none;align=left;verticalAlign=top;spacing=0;fontFamily=DejaVu Sans;fontSize=16;fontColor=#203D52;fontStyle=0;" vertex="1" parent="hot-zone">
+          <mxGeometry x="14" y="41" width="502" height="88" as="geometry" />
+        </mxCell>
+        <mxCell id="energy-zone" value="" style="html=0;whiteSpace=wrap;overflow=hidden;rounded=1;arcSize=8;fillColor=#FFFFFF;strokeColor=#D3DFE7;container=1;collapsible=0;recursiveResize=0;" vertex="1" parent="1">
+          <mxGeometry x="1190" y="130" width="530" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="energy-zone-bar" value="" style="html=0;whiteSpace=wrap;overflow=hidden;rounded=0;arcSize=8;fillColor=#946218;strokeColor=none;container=1;collapsible=0;recursiveResize=0;" vertex="1" parent="energy-zone">
+          <mxGeometry x="0" y="0" width="530" height="5" as="geometry" />
+        </mxCell>
+        <mxCell id="energy-zone-title" value="ENERGY ZONE | battery and charging" style="html=0;whiteSpace=wrap;overflow=hidden;text;fillColor=none;strokeColor=none;align=left;verticalAlign=top;spacing=0;fontFamily=DejaVu Sans;fontSize=18;fontColor=#946218;fontStyle=1;" vertex="1" parent="energy-zone">
+          <mxGeometry x="14" y="13" width="502" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="energy-zone-body" value="Separate battery, inverter, chargers and high-current wiring&#xa;from water, grease, packaging and public egress. Use local&#xa;shutdown and fault monitoring." style="html=0;whiteSpace=wrap;overflow=hidden;text;fillColor=none;strokeColor=none;align=left;verticalAlign=top;spacing=0;fontFamily=DejaVu Sans;fontSize=16;fontColor=#203D52;fontStyle=0;" vertex="1" parent="energy-zone">
+          <mxGeometry x="14" y="41" width="502" height="88" as="geometry" />
+        </mxCell>
+        <mxCell id="mh0" value="" style="html=0;whiteSpace=wrap;overflow=hidden;rounded=0;arcSize=8;fillColor=#102C46;strokeColor=#FFFFFF;container=1;collapsible=0;recursiveResize=0;" vertex="1" parent="1">
+          <mxGeometry x="40" y="305" width="140" height="44" as="geometry" />
+        </mxCell>
+        <mxCell id="mht0" value="ID" style="html=0;whiteSpace=wrap;overflow=hidden;text;fillColor=none;strokeColor=none;align=left;verticalAlign=top;spacing=0;fontFamily=DejaVu Sans;fontSize=14;fontColor=#FFFFFF;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="50" y="316" width="120" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="mh1" value="" style="html=0;whiteSpace=wrap;overflow=hidden;rounded=0;arcSize=8;fillColor=#102C46;strokeColor=#FFFFFF;container=1;collapsible=0;recursiveResize=0;" vertex="1" parent="1">
+          <mxGeometry x="180" y="305" width="240" height="44" as="geometry" />
+        </mxCell>
+        <mxCell id="mht1" value="Material" style="html=0;whiteSpace=wrap;overflow=hidden;text;fillColor=none;strokeColor=none;align=left;verticalAlign=top;spacing=0;fontFamily=DejaVu Sans;fontSize=14;fontColor=#FFFFFF;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="190" y="316" width="220" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="mh2" value="" style="html=0;whiteSpace=wrap;overflow=hidden;rounded=0;arcSize=8;fillColor=#102C46;strokeColor=#FFFFFF;container=1;collapsible=0;recursiveResize=0;" vertex="1" parent="1">
+          <mxGeometry x="420" y="305" width="300" height="44" as="geometry" />
+        </mxCell>
+        <mxCell id="mht2" value="Candidate allocation" style="html=0;whiteSpace=wrap;overflow=hidden;text;fillColor=none;strokeColor=none;align=left;verticalAlign=top;spacing=0;fontFamily=DejaVu Sans;fontSize=14;fontColor=#FFFFFF;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="430" y="316" width="280" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="mh3" value="" style="html=0;whiteSpace=wrap;overflow=hidden;rounded=0;arcSize=8;fillColor=#102C46;strokeColor=#FFFFFF;container=1;collapsible=0;recursiveResize=0;" vertex="1" parent="1">
+          <mxGeometry x="720" y="305" width="530" height="44" as="geometry" />
+        </mxCell>
+        <mxCell id="mht3" value="Engineering decision" style="html=0;whiteSpace=wrap;overflow=hidden;text;fillColor=none;strokeColor=none;align=left;verticalAlign=top;spacing=0;fontFamily=DejaVu Sans;fontSize=14;fontColor=#FFFFFF;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="730" y="316" width="510" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="mh4" value="" style="html=0;whiteSpace=wrap;overflow=hidden;rounded=0;arcSize=8;fillColor=#102C46;strokeColor=#FFFFFF;container=1;collapsible=0;recursiveResize=0;" vertex="1" parent="1">
+          <mxGeometry x="1250" y="305" width="510" height="44" as="geometry" />
+        </mxCell>
+        <mxCell id="mht4" value="Evidence before release" style="html=0;whiteSpace=wrap;overflow=hidden;text;fillColor=none;strokeColor=none;align=left;verticalAlign=top;spacing=0;fontFamily=DejaVu Sans;fontSize=14;fontColor=#FFFFFF;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="1260" y="316" width="490" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="m0-0" value="" style="html=0;whiteSpace=wrap;overflow=hidden;rounded=0;arcSize=8;fillColor=#FFFFFF;strokeColor=#D3DFE7;container=1;collapsible=0;recursiveResize=0;" vertex="1" parent="1">
+          <mxGeometry x="40" y="349" width="140" height="88" as="geometry" />
+        </mxCell>
+        <mxCell id="mt0-0" value="M01" style="html=0;whiteSpace=wrap;overflow=hidden;text;fillColor=none;strokeColor=none;align=left;verticalAlign=top;spacing=0;fontFamily=DejaVu Sans;fontSize=13.2;fontColor=#203D52;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="50" y="357" width="120" height="72" as="geometry" />
+        </mxCell>
+        <mxCell id="m0-1" value="" style="html=0;whiteSpace=wrap;overflow=hidden;rounded=0;arcSize=8;fillColor=#FFFFFF;strokeColor=#D3DFE7;container=1;collapsible=0;recursiveResize=0;" vertex="1" parent="1">
+          <mxGeometry x="180" y="349" width="240" height="88" as="geometry" />
+        </mxCell>
+        <mxCell id="mt0-1" value="Acero naval" style="html=0;whiteSpace=wrap;overflow=hidden;text;fillColor=none;strokeColor=none;align=left;verticalAlign=top;spacing=0;fontFamily=DejaVu Sans;fontSize=13.2;fontColor=#203D52;fontStyle=0;" vertex="1" parent="1">
+          <mxGeometry x="190" y="357" width="220" height="72" as="geometry" />
+        </mxCell>
+        <mxCell id="m0-2" value="" style="html=0;whiteSpace=wrap;overflow=hidden;rounded=0;arcSize=8;fillColor=#FFFFFF;strokeColor=#D3DFE7;container=1;collapsible=0;recursiveResize=0;" vertex="1" parent="1">
+          <mxGeometry x="420" y="349" width="300" height="88" as="geometry" />
+        </mxCell>
+        <mxCell id="mt0-2" value="Chasis, soportes y puntos de carga" style="html=0;whiteSpace=wrap;overflow=hidden;text;fillColor=none;strokeColor=none;align=left;verticalAlign=top;spacing=0;fontFamily=DejaVu Sans;fontSize=13.2;fontColor=#203D52;fontStyle=0;" vertex="1" parent="1">
+          <mxGeometry x="430" y="357" width="280" height="72" as="geometry" />
+        </mxCell>
+        <mxCell id="m0-3" value="" style="html=0;whiteSpace=wrap;overflow=hidden;rounded=0;arcSize=8;fillColor=#FFFFFF;strokeColor=#D3DFE7;container=1;collapsible=0;recursiveResize=0;" vertex="1" parent="1">
+          <mxGeometry x="720" y="349" width="530" height="88" as="geometry" />
+        </mxCell>
+        <mxCell id="mt0-3" value="Candidato para estructura primaria. Seleccionar grado, protección&#xa;anticorrosiva, soldadura y masa; “naval” no equivale a clasificación contra&#xa;incendio." style="html=0;whiteSpace=wrap;overflow=hidden;text;fillColor=none;strokeColor=none;align=left;verticalAlign=top;spacing=0;fontFamily=DejaVu Sans;fontSize=13.2;fontColor=#203D52;fontStyle=0;" vertex="1" parent="1">
+          <mxGeometry x="730" y="357" width="510" height="72" as="geometry" />
+        </mxCell>
+        <mxCell id="m0-4" value="" style="html=0;whiteSpace=wrap;overflow=hidden;rounded=0;arcSize=8;fillColor=#FFFFFF;strokeColor=#D3DFE7;container=1;collapsible=0;recursiveResize=0;" vertex="1" parent="1">
+          <mxGeometry x="1250" y="349" width="510" height="88" as="geometry" />
+        </mxCell>
+        <mxCell id="mt0-4" value="BOM, uniones, cargas, corrosión y reparación." style="html=0;whiteSpace=wrap;overflow=hidden;text;fillColor=none;strokeColor=none;align=left;verticalAlign=top;spacing=0;fontFamily=DejaVu Sans;fontSize=13.2;fontColor=#203D52;fontStyle=0;" vertex="1" parent="1">
+          <mxGeometry x="1260" y="357" width="490" height="72" as="geometry" />
+        </mxCell>
+        <mxCell id="m1-0" value="" style="html=0;whiteSpace=wrap;overflow=hidden;rounded=0;arcSize=8;fillColor=#EBF1F6;strokeColor=#D3DFE7;container=1;collapsible=0;recursiveResize=0;" vertex="1" parent="1">
+          <mxGeometry x="40" y="437" width="140" height="88" as="geometry" />
+        </mxCell>
+        <mxCell id="mt1-0" value="M02" style="html=0;whiteSpace=wrap;overflow=hidden;text;fillColor=none;strokeColor=none;align=left;verticalAlign=top;spacing=0;fontFamily=DejaVu Sans;fontSize=13.2;fontColor=#203D52;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="50" y="445" width="120" height="72" as="geometry" />
+        </mxCell>
+        <mxCell id="m1-1" value="" style="html=0;whiteSpace=wrap;overflow=hidden;rounded=0;arcSize=8;fillColor=#EBF1F6;strokeColor=#D3DFE7;container=1;collapsible=0;recursiveResize=0;" vertex="1" parent="1">
+          <mxGeometry x="180" y="437" width="240" height="88" as="geometry" />
+        </mxCell>
+        <mxCell id="mt1-1" value="Aluminio" style="html=0;whiteSpace=wrap;overflow=hidden;text;fillColor=none;strokeColor=none;align=left;verticalAlign=top;spacing=0;fontFamily=DejaVu Sans;fontSize=13.2;fontColor=#203D52;fontStyle=0;" vertex="1" parent="1">
+          <mxGeometry x="190" y="445" width="220" height="72" as="geometry" />
+        </mxCell>
+        <mxCell id="m1-2" value="" style="html=0;whiteSpace=wrap;overflow=hidden;rounded=0;arcSize=8;fillColor=#EBF1F6;strokeColor=#D3DFE7;container=1;collapsible=0;recursiveResize=0;" vertex="1" parent="1">
+          <mxGeometry x="420" y="437" width="300" height="88" as="geometry" />
+        </mxCell>
+        <mxCell id="mt1-2" value="Bastidores, pieles y módulos de zona fría" style="html=0;whiteSpace=wrap;overflow=hidden;text;fillColor=none;strokeColor=none;align=left;verticalAlign=top;spacing=0;fontFamily=DejaVu Sans;fontSize=13.2;fontColor=#203D52;fontStyle=0;" vertex="1" parent="1">
+          <mxGeometry x="430" y="445" width="280" height="72" as="geometry" />
+        </mxCell>
+        <mxCell id="m1-3" value="" style="html=0;whiteSpace=wrap;overflow=hidden;rounded=0;arcSize=8;fillColor=#EBF1F6;strokeColor=#D3DFE7;container=1;collapsible=0;recursiveResize=0;" vertex="1" parent="1">
+          <mxGeometry x="720" y="437" width="530" height="88" as="geometry" />
+        </mxCell>
+        <mxCell id="mt1-3" value="Aislar interfaces con carbono y controlar puentes térmicos. Una chapa&#xa;delgada no se considerará barrera de fuego sin ensayo de conjunto." style="html=0;whiteSpace=wrap;overflow=hidden;text;fillColor=none;strokeColor=none;align=left;verticalAlign=top;spacing=0;fontFamily=DejaVu Sans;fontSize=13.2;fontColor=#203D52;fontStyle=0;" vertex="1" parent="1">
+          <mxGeometry x="730" y="445" width="510" height="72" as="geometry" />
+        </mxCell>
+        <mxCell id="m1-4" value="" style="html=0;whiteSpace=wrap;overflow=hidden;rounded=0;arcSize=8;fillColor=#EBF1F6;strokeColor=#D3DFE7;container=1;collapsible=0;recursiveResize=0;" vertex="1" parent="1">
+          <mxGeometry x="1250" y="437" width="510" height="88" as="geometry" />
+        </mxCell>
+        <mxCell id="mt1-4" value="Aleación/temple, uniones, térmico y compatibilidad." style="html=0;whiteSpace=wrap;overflow=hidden;text;fillColor=none;strokeColor=none;align=left;verticalAlign=top;spacing=0;fontFamily=DejaVu Sans;fontSize=13.2;fontColor=#203D52;fontStyle=0;" vertex="1" parent="1">
+          <mxGeometry x="1260" y="445" width="490" height="72" as="geometry" />
+        </mxCell>
+        <mxCell id="m2-0" value="" style="html=0;whiteSpace=wrap;overflow=hidden;rounded=0;arcSize=8;fillColor=#FFFFFF;strokeColor=#D3DFE7;container=1;collapsible=0;recursiveResize=0;" vertex="1" parent="1">
+          <mxGeometry x="40" y="525" width="140" height="88" as="geometry" />
+        </mxCell>
+        <mxCell id="mt2-0" value="M03" style="html=0;whiteSpace=wrap;overflow=hidden;text;fillColor=none;strokeColor=none;align=left;verticalAlign=top;spacing=0;fontFamily=DejaVu Sans;fontSize=13.2;fontColor=#203D52;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="50" y="533" width="120" height="72" as="geometry" />
+        </mxCell>
+        <mxCell id="m2-1" value="" style="html=0;whiteSpace=wrap;overflow=hidden;rounded=0;arcSize=8;fillColor=#FFFFFF;strokeColor=#D3DFE7;container=1;collapsible=0;recursiveResize=0;" vertex="1" parent="1">
+          <mxGeometry x="180" y="525" width="240" height="88" as="geometry" />
+        </mxCell>
+        <mxCell id="mt2-1" value="Fibra de vidrio / GFRP" style="html=0;whiteSpace=wrap;overflow=hidden;text;fillColor=none;strokeColor=none;align=left;verticalAlign=top;spacing=0;fontFamily=DejaVu Sans;fontSize=13.2;fontColor=#203D52;fontStyle=0;" vertex="1" parent="1">
+          <mxGeometry x="190" y="533" width="220" height="72" as="geometry" />
+        </mxCell>
+        <mxCell id="m2-2" value="" style="html=0;whiteSpace=wrap;overflow=hidden;rounded=0;arcSize=8;fillColor=#FFFFFF;strokeColor=#D3DFE7;container=1;collapsible=0;recursiveResize=0;" vertex="1" parent="1">
+          <mxGeometry x="420" y="525" width="300" height="88" as="geometry" />
+        </mxCell>
+        <mxCell id="mt2-2" value="Paneles exteriores protegidos" style="html=0;whiteSpace=wrap;overflow=hidden;text;fillColor=none;strokeColor=none;align=left;verticalAlign=top;spacing=0;fontFamily=DejaVu Sans;fontSize=13.2;fontColor=#203D52;fontStyle=0;" vertex="1" parent="1">
+          <mxGeometry x="430" y="533" width="280" height="72" as="geometry" />
+        </mxCell>
+        <mxCell id="m2-3" value="" style="html=0;whiteSpace=wrap;overflow=hidden;rounded=0;arcSize=8;fillColor=#FFFFFF;strokeColor=#D3DFE7;container=1;collapsible=0;recursiveResize=0;" vertex="1" parent="1">
+          <mxGeometry x="720" y="525" width="530" height="88" as="geometry" />
+        </mxCell>
+        <mxCell id="mt2-3" value="Calificar fibra, resina, núcleo, adhesivo y acabado como laminado completo;&#xa;la fibra de vidrio no hace incombustible a la matriz polimérica." style="html=0;whiteSpace=wrap;overflow=hidden;text;fillColor=none;strokeColor=none;align=left;verticalAlign=top;spacing=0;fontFamily=DejaVu Sans;fontSize=13.2;fontColor=#203D52;fontStyle=0;" vertex="1" parent="1">
+          <mxGeometry x="730" y="533" width="510" height="72" as="geometry" />
+        </mxCell>
+        <mxCell id="m2-4" value="" style="html=0;whiteSpace=wrap;overflow=hidden;rounded=0;arcSize=8;fillColor=#FFFFFF;strokeColor=#D3DFE7;container=1;collapsible=0;recursiveResize=0;" vertex="1" parent="1">
+          <mxGeometry x="1250" y="525" width="510" height="88" as="geometry" />
+        </mxCell>
+        <mxCell id="mt2-4" value="Dossier de material, fuego, humo, durabilidad y reparación." style="html=0;whiteSpace=wrap;overflow=hidden;text;fillColor=none;strokeColor=none;align=left;verticalAlign=top;spacing=0;fontFamily=DejaVu Sans;fontSize=13.2;fontColor=#203D52;fontStyle=0;" vertex="1" parent="1">
+          <mxGeometry x="1260" y="533" width="490" height="72" as="geometry" />
+        </mxCell>
+        <mxCell id="m3-0" value="" style="html=0;whiteSpace=wrap;overflow=hidden;rounded=0;arcSize=8;fillColor=#EBF1F6;strokeColor=#D3DFE7;container=1;collapsible=0;recursiveResize=0;" vertex="1" parent="1">
+          <mxGeometry x="40" y="613" width="140" height="88" as="geometry" />
+        </mxCell>
+        <mxCell id="mt3-0" value="M04" style="html=0;whiteSpace=wrap;overflow=hidden;text;fillColor=none;strokeColor=none;align=left;verticalAlign=top;spacing=0;fontFamily=DejaVu Sans;fontSize=13.2;fontColor=#203D52;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="50" y="621" width="120" height="72" as="geometry" />
+        </mxCell>
+        <mxCell id="m3-1" value="" style="html=0;whiteSpace=wrap;overflow=hidden;rounded=0;arcSize=8;fillColor=#EBF1F6;strokeColor=#D3DFE7;container=1;collapsible=0;recursiveResize=0;" vertex="1" parent="1">
+          <mxGeometry x="180" y="613" width="240" height="88" as="geometry" />
+        </mxCell>
+        <mxCell id="mt3-1" value="Fibra de carbono / CFRP" style="html=0;whiteSpace=wrap;overflow=hidden;text;fillColor=none;strokeColor=none;align=left;verticalAlign=top;spacing=0;fontFamily=DejaVu Sans;fontSize=13.2;fontColor=#203D52;fontStyle=0;" vertex="1" parent="1">
+          <mxGeometry x="190" y="621" width="220" height="72" as="geometry" />
+        </mxCell>
+        <mxCell id="m3-2" value="" style="html=0;whiteSpace=wrap;overflow=hidden;rounded=0;arcSize=8;fillColor=#EBF1F6;strokeColor=#D3DFE7;container=1;collapsible=0;recursiveResize=0;" vertex="1" parent="1">
+          <mxGeometry x="420" y="613" width="300" height="88" as="geometry" />
+        </mxCell>
+        <mxCell id="mt3-2" value="Opción de reducción de masa" style="html=0;whiteSpace=wrap;overflow=hidden;text;fillColor=none;strokeColor=none;align=left;verticalAlign=top;spacing=0;fontFamily=DejaVu Sans;fontSize=13.2;fontColor=#203D52;fontStyle=0;" vertex="1" parent="1">
+          <mxGeometry x="430" y="621" width="280" height="72" as="geometry" />
+        </mxCell>
+        <mxCell id="m3-3" value="" style="html=0;whiteSpace=wrap;overflow=hidden;rounded=0;arcSize=8;fillColor=#EBF1F6;strokeColor=#D3DFE7;container=1;collapsible=0;recursiveResize=0;" vertex="1" parent="1">
+          <mxGeometry x="720" y="613" width="530" height="88" as="geometry" />
+        </mxCell>
+        <mxCell id="mt3-3" value="Usar solo si el balance de masa lo justifica. Revisar daño, inspección,&#xa;reparación, conductividad e interfaz con aluminio; excluir de zonas calientes&#xa;no calificadas." style="html=0;whiteSpace=wrap;overflow=hidden;text;fillColor=none;strokeColor=none;align=left;verticalAlign=top;spacing=0;fontFamily=DejaVu Sans;fontSize=13.2;fontColor=#203D52;fontStyle=0;" vertex="1" parent="1">
+          <mxGeometry x="730" y="621" width="510" height="72" as="geometry" />
+        </mxCell>
+        <mxCell id="m3-4" value="" style="html=0;whiteSpace=wrap;overflow=hidden;rounded=0;arcSize=8;fillColor=#EBF1F6;strokeColor=#D3DFE7;container=1;collapsible=0;recursiveResize=0;" vertex="1" parent="1">
+          <mxGeometry x="1250" y="613" width="510" height="88" as="geometry" />
+        </mxCell>
+        <mxCell id="mt3-4" value="Trade-off, cupones de laminado, juntas y reparación." style="html=0;whiteSpace=wrap;overflow=hidden;text;fillColor=none;strokeColor=none;align=left;verticalAlign=top;spacing=0;fontFamily=DejaVu Sans;fontSize=13.2;fontColor=#203D52;fontStyle=0;" vertex="1" parent="1">
+          <mxGeometry x="1260" y="621" width="490" height="72" as="geometry" />
+        </mxCell>
+        <mxCell id="m4-0" value="" style="html=0;whiteSpace=wrap;overflow=hidden;rounded=0;arcSize=8;fillColor=#FFFFFF;strokeColor=#D3DFE7;container=1;collapsible=0;recursiveResize=0;" vertex="1" parent="1">
+          <mxGeometry x="40" y="701" width="140" height="88" as="geometry" />
+        </mxCell>
+        <mxCell id="mt4-0" value="M05" style="html=0;whiteSpace=wrap;overflow=hidden;text;fillColor=none;strokeColor=none;align=left;verticalAlign=top;spacing=0;fontFamily=DejaVu Sans;fontSize=13.2;fontColor=#203D52;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="50" y="709" width="120" height="72" as="geometry" />
+        </mxCell>
+        <mxCell id="m4-1" value="" style="html=0;whiteSpace=wrap;overflow=hidden;rounded=0;arcSize=8;fillColor=#FFFFFF;strokeColor=#D3DFE7;container=1;collapsible=0;recursiveResize=0;" vertex="1" parent="1">
+          <mxGeometry x="180" y="701" width="240" height="88" as="geometry" />
+        </mxCell>
+        <mxCell id="mt4-1" value="Madera sintética / WPC" style="html=0;whiteSpace=wrap;overflow=hidden;text;fillColor=none;strokeColor=none;align=left;verticalAlign=top;spacing=0;fontFamily=DejaVu Sans;fontSize=13.2;fontColor=#203D52;fontStyle=0;" vertex="1" parent="1">
+          <mxGeometry x="190" y="709" width="220" height="72" as="geometry" />
+        </mxCell>
+        <mxCell id="m4-2" value="" style="html=0;whiteSpace=wrap;overflow=hidden;rounded=0;arcSize=8;fillColor=#FFFFFF;strokeColor=#D3DFE7;container=1;collapsible=0;recursiveResize=0;" vertex="1" parent="1">
+          <mxGeometry x="420" y="701" width="300" height="88" as="geometry" />
+        </mxCell>
+        <mxCell id="mt4-2" value="Acabados decorativos en zona fría" style="html=0;whiteSpace=wrap;overflow=hidden;text;fillColor=none;strokeColor=none;align=left;verticalAlign=top;spacing=0;fontFamily=DejaVu Sans;fontSize=13.2;fontColor=#203D52;fontStyle=0;" vertex="1" parent="1">
+          <mxGeometry x="430" y="709" width="280" height="72" as="geometry" />
+        </mxCell>
+        <mxCell id="m4-3" value="" style="html=0;whiteSpace=wrap;overflow=hidden;rounded=0;arcSize=8;fillColor=#FFFFFF;strokeColor=#D3DFE7;container=1;collapsible=0;recursiveResize=0;" vertex="1" parent="1">
+          <mxGeometry x="720" y="701" width="530" height="88" as="geometry" />
+        </mxCell>
+        <mxCell id="mt4-3" value="Evaluar el producto real: puede contener matriz polimérica. No asumir&#xa;clasificación por apariencia; alternativa conservadora: acabado símil madera&#xa;metálico calificado." style="html=0;whiteSpace=wrap;overflow=hidden;text;fillColor=none;strokeColor=none;align=left;verticalAlign=top;spacing=0;fontFamily=DejaVu Sans;fontSize=13.2;fontColor=#203D52;fontStyle=0;" vertex="1" parent="1">
+          <mxGeometry x="730" y="709" width="510" height="72" as="geometry" />
+        </mxCell>
+        <mxCell id="m4-4" value="" style="html=0;whiteSpace=wrap;overflow=hidden;rounded=0;arcSize=8;fillColor=#FFFFFF;strokeColor=#D3DFE7;container=1;collapsible=0;recursiveResize=0;" vertex="1" parent="1">
+          <mxGeometry x="1250" y="701" width="510" height="88" as="geometry" />
+        </mxCell>
+        <mxCell id="mt4-4" value="Ensayo de acabado instalado, limpieza y envejecimiento." style="html=0;whiteSpace=wrap;overflow=hidden;text;fillColor=none;strokeColor=none;align=left;verticalAlign=top;spacing=0;fontFamily=DejaVu Sans;fontSize=13.2;fontColor=#203D52;fontStyle=0;" vertex="1" parent="1">
+          <mxGeometry x="1260" y="709" width="490" height="72" as="geometry" />
+        </mxCell>
+        <mxCell id="m5-0" value="" style="html=0;whiteSpace=wrap;overflow=hidden;rounded=0;arcSize=8;fillColor=#EBF1F6;strokeColor=#D3DFE7;container=1;collapsible=0;recursiveResize=0;" vertex="1" parent="1">
+          <mxGeometry x="40" y="789" width="140" height="88" as="geometry" />
+        </mxCell>
+        <mxCell id="mt5-0" value="M06" style="html=0;whiteSpace=wrap;overflow=hidden;text;fillColor=none;strokeColor=none;align=left;verticalAlign=top;spacing=0;fontFamily=DejaVu Sans;fontSize=13.2;fontColor=#203D52;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="50" y="797" width="120" height="72" as="geometry" />
+        </mxCell>
+        <mxCell id="m5-1" value="" style="html=0;whiteSpace=wrap;overflow=hidden;rounded=0;arcSize=8;fillColor=#EBF1F6;strokeColor=#D3DFE7;container=1;collapsible=0;recursiveResize=0;" vertex="1" parent="1">
+          <mxGeometry x="180" y="789" width="240" height="88" as="geometry" />
+        </mxCell>
+        <mxCell id="mt5-1" value="Acero inoxidable + barrera&#xa;mineral" style="html=0;whiteSpace=wrap;overflow=hidden;text;fillColor=none;strokeColor=none;align=left;verticalAlign=top;spacing=0;fontFamily=DejaVu Sans;fontSize=13.2;fontColor=#203D52;fontStyle=0;" vertex="1" parent="1">
+          <mxGeometry x="190" y="797" width="220" height="72" as="geometry" />
+        </mxCell>
+        <mxCell id="m5-2" value="" style="html=0;whiteSpace=wrap;overflow=hidden;rounded=0;arcSize=8;fillColor=#EBF1F6;strokeColor=#D3DFE7;container=1;collapsible=0;recursiveResize=0;" vertex="1" parent="1">
+          <mxGeometry x="420" y="789" width="300" height="88" as="geometry" />
+        </mxCell>
+        <mxCell id="mt5-2" value="Interior, servicio y zona caliente" style="html=0;whiteSpace=wrap;overflow=hidden;text;fillColor=none;strokeColor=none;align=left;verticalAlign=top;spacing=0;fontFamily=DejaVu Sans;fontSize=13.2;fontColor=#203D52;fontStyle=0;" vertex="1" parent="1">
+          <mxGeometry x="430" y="797" width="280" height="72" as="geometry" />
+        </mxCell>
+        <mxCell id="m5-3" value="" style="html=0;whiteSpace=wrap;overflow=hidden;rounded=0;arcSize=8;fillColor=#EBF1F6;strokeColor=#D3DFE7;container=1;collapsible=0;recursiveResize=0;" vertex="1" parent="1">
+          <mxGeometry x="720" y="789" width="530" height="88" as="geometry" />
+        </mxCell>
+        <mxCell id="mt5-3" value="Candidato preferente para superficies lavables y resistentes. La barrera, el&#xa;aislamiento, los adhesivos, las juntas y las penetraciones forman parte de la&#xa;asamblea." style="html=0;whiteSpace=wrap;overflow=hidden;text;fillColor=none;strokeColor=none;align=left;verticalAlign=top;spacing=0;fontFamily=DejaVu Sans;fontSize=13.2;fontColor=#203D52;fontStyle=0;" vertex="1" parent="1">
+          <mxGeometry x="730" y="797" width="510" height="72" as="geometry" />
+        </mxCell>
+        <mxCell id="m5-4" value="" style="html=0;whiteSpace=wrap;overflow=hidden;rounded=0;arcSize=8;fillColor=#EBF1F6;strokeColor=#D3DFE7;container=1;collapsible=0;recursiveResize=0;" vertex="1" parent="1">
+          <mxGeometry x="1250" y="789" width="510" height="88" as="geometry" />
+        </mxCell>
+        <mxCell id="mt5-4" value="Contacto alimentario, térmico, humo y montaje." style="html=0;whiteSpace=wrap;overflow=hidden;text;fillColor=none;strokeColor=none;align=left;verticalAlign=top;spacing=0;fontFamily=DejaVu Sans;fontSize=13.2;fontColor=#203D52;fontStyle=0;" vertex="1" parent="1">
+          <mxGeometry x="1260" y="797" width="490" height="72" as="geometry" />
+        </mxCell>
+        <mxCell id="m6-0" value="" style="html=0;whiteSpace=wrap;overflow=hidden;rounded=0;arcSize=8;fillColor=#FFFFFF;strokeColor=#D3DFE7;container=1;collapsible=0;recursiveResize=0;" vertex="1" parent="1">
+          <mxGeometry x="40" y="877" width="140" height="88" as="geometry" />
+        </mxCell>
+        <mxCell id="mt6-0" value="M07" style="html=0;whiteSpace=wrap;overflow=hidden;text;fillColor=none;strokeColor=none;align=left;verticalAlign=top;spacing=0;fontFamily=DejaVu Sans;fontSize=13.2;fontColor=#203D52;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="50" y="885" width="120" height="72" as="geometry" />
+        </mxCell>
+        <mxCell id="m6-1" value="" style="html=0;whiteSpace=wrap;overflow=hidden;rounded=0;arcSize=8;fillColor=#FFFFFF;strokeColor=#D3DFE7;container=1;collapsible=0;recursiveResize=0;" vertex="1" parent="1">
+          <mxGeometry x="180" y="877" width="240" height="88" as="geometry" />
+        </mxCell>
+        <mxCell id="mt6-1" value="Aislamiento y adhesivos&#xa;calificados" style="html=0;whiteSpace=wrap;overflow=hidden;text;fillColor=none;strokeColor=none;align=left;verticalAlign=top;spacing=0;fontFamily=DejaVu Sans;fontSize=13.2;fontColor=#203D52;fontStyle=0;" vertex="1" parent="1">
+          <mxGeometry x="190" y="885" width="220" height="72" as="geometry" />
+        </mxCell>
+        <mxCell id="m6-2" value="" style="html=0;whiteSpace=wrap;overflow=hidden;rounded=0;arcSize=8;fillColor=#FFFFFF;strokeColor=#D3DFE7;container=1;collapsible=0;recursiveResize=0;" vertex="1" parent="1">
+          <mxGeometry x="420" y="877" width="300" height="88" as="geometry" />
+        </mxCell>
+        <mxCell id="mt6-2" value="Paneles isotérmicos y pasos de&#xa;instalaciones" style="html=0;whiteSpace=wrap;overflow=hidden;text;fillColor=none;strokeColor=none;align=left;verticalAlign=top;spacing=0;fontFamily=DejaVu Sans;fontSize=13.2;fontColor=#203D52;fontStyle=0;" vertex="1" parent="1">
+          <mxGeometry x="430" y="885" width="280" height="72" as="geometry" />
+        </mxCell>
+        <mxCell id="m6-3" value="" style="html=0;whiteSpace=wrap;overflow=hidden;rounded=0;arcSize=8;fillColor=#FFFFFF;strokeColor=#D3DFE7;container=1;collapsible=0;recursiveResize=0;" vertex="1" parent="1">
+          <mxGeometry x="720" y="877" width="530" height="88" as="geometry" />
+        </mxCell>
+        <mxCell id="mt6-3" value="Seleccionar núcleo, adhesivo y sellos según temperatura, condensación y&#xa;reacción al fuego. Controlar continuidad alrededor de puertas, vitrinas y&#xa;batería." style="html=0;whiteSpace=wrap;overflow=hidden;text;fillColor=none;strokeColor=none;align=left;verticalAlign=top;spacing=0;fontFamily=DejaVu Sans;fontSize=13.2;fontColor=#203D52;fontStyle=0;" vertex="1" parent="1">
+          <mxGeometry x="730" y="885" width="510" height="72" as="geometry" />
+        </mxCell>
+        <mxCell id="m6-4" value="" style="html=0;whiteSpace=wrap;overflow=hidden;rounded=0;arcSize=8;fillColor=#FFFFFF;strokeColor=#D3DFE7;container=1;collapsible=0;recursiveResize=0;" vertex="1" parent="1">
+          <mxGeometry x="1250" y="877" width="510" height="88" as="geometry" />
+        </mxCell>
+        <mxCell id="mt6-4" value="Ensayo del panel completo y control de proceso." style="html=0;whiteSpace=wrap;overflow=hidden;text;fillColor=none;strokeColor=none;align=left;verticalAlign=top;spacing=0;fontFamily=DejaVu Sans;fontSize=13.2;fontColor=#203D52;fontStyle=0;" vertex="1" parent="1">
+          <mxGeometry x="1260" y="885" width="490" height="72" as="geometry" />
+        </mxCell>
+        <mxCell id="assembly-rule" value="" style="html=0;whiteSpace=wrap;overflow=hidden;rounded=1;arcSize=8;fillColor=#FFFFFF;strokeColor=#D3DFE7;container=1;collapsible=0;recursiveResize=0;" vertex="1" parent="1">
+          <mxGeometry x="40" y="980" width="815" height="125" as="geometry" />
+        </mxCell>
+        <mxCell id="assembly-rule-bar" value="" style="html=0;whiteSpace=wrap;overflow=hidden;rounded=0;arcSize=8;fillColor=#B44036;strokeColor=none;container=1;collapsible=0;recursiveResize=0;" vertex="1" parent="assembly-rule">
+          <mxGeometry x="0" y="0" width="815" height="5" as="geometry" />
+        </mxCell>
+        <mxCell id="assembly-rule-title" value="Acceptance unit = installed assembly" style="html=0;whiteSpace=wrap;overflow=hidden;text;fillColor=none;strokeColor=none;align=left;verticalAlign=top;spacing=0;fontFamily=DejaVu Sans;fontSize=18;fontColor=#B44036;fontStyle=1;" vertex="1" parent="assembly-rule">
+          <mxGeometry x="14" y="13" width="787" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="assembly-rule-body" value="Skin, resin, core, adhesive, coating, substrate, fasteners, joints and penetrations are one qualification unit.&#xa;Composite fire performance depends on the complete system. [S3–S5]" style="html=0;whiteSpace=wrap;overflow=hidden;text;fillColor=none;strokeColor=none;align=left;verticalAlign=top;spacing=0;fontFamily=DejaVu Sans;fontSize=14;fontColor=#203D52;fontStyle=0;" vertex="1" parent="assembly-rule">
+          <mxGeometry x="14" y="41" width="787" height="73" as="geometry" />
+        </mxCell>
+        <mxCell id="selection-rule" value="" style="html=0;whiteSpace=wrap;overflow=hidden;rounded=1;arcSize=8;fillColor=#FFFFFF;strokeColor=#D3DFE7;container=1;collapsible=0;recursiveResize=0;" vertex="1" parent="1">
+          <mxGeometry x="905" y="980" width="815" height="125" as="geometry" />
+        </mxCell>
+        <mxCell id="selection-rule-bar" value="" style="html=0;whiteSpace=wrap;overflow=hidden;rounded=0;arcSize=8;fillColor=#176F9B;strokeColor=none;container=1;collapsible=0;recursiveResize=0;" vertex="1" parent="selection-rule">
+          <mxGeometry x="0" y="0" width="815" height="5" as="geometry" />
+        </mxCell>
+        <mxCell id="selection-rule-title" value="Selection objective" style="html=0;whiteSpace=wrap;overflow=hidden;text;fillColor=none;strokeColor=none;align=left;verticalAlign=top;spacing=0;fontFamily=DejaVu Sans;fontSize=18;fontColor=#176F9B;fontStyle=1;" vertex="1" parent="selection-rule">
+          <mxGeometry x="14" y="13" width="787" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="selection-rule-body" value="Minimize fire contribution while meeting mass, structure, corrosion, hygiene, thermal, durability and repair&#xa;needs. Final grades, thicknesses and fire methods remain TBD." style="html=0;whiteSpace=wrap;overflow=hidden;text;fillColor=none;strokeColor=none;align=left;verticalAlign=top;spacing=0;fontFamily=DejaVu Sans;fontSize=14;fontColor=#203D52;fontStyle=0;" vertex="1" parent="selection-rule">
+          <mxGeometry x="14" y="41" width="787" height="73" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="icecream-4" name="04 Verification">
+    <mxGraphModel dx="2442" dy="1180" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1760" pageHeight="1160" background="#F4F7FA" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="gate-edge1" edge="1" parent="1" source="gate0" style="edgeStyle=none;html=0;rounded=0;strokeColor=#102C46;strokeWidth=2;exitX=1.0000;exitY=0.4966;exitDx=0;exitDy=0;entryX=0.0000;entryY=0.4966;entryDx=0;entryDy=0;endArrow=block;endFill=1;" target="gate1" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="gate-edge2" edge="1" parent="1" source="gate1" style="edgeStyle=none;html=0;rounded=0;strokeColor=#102C46;strokeWidth=2;exitX=1.0000;exitY=0.4966;exitDx=0;exitDy=0;entryX=0.0000;entryY=0.4966;entryDx=0;entryDy=0;endArrow=block;endFill=1;" target="gate2" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="gate-edge3" edge="1" parent="1" source="gate2" style="edgeStyle=none;html=0;rounded=0;strokeColor=#102C46;strokeWidth=2;exitX=1.0000;exitY=0.4966;exitDx=0;exitDy=0;entryX=0.0000;entryY=0.4966;entryDx=0;entryDy=0;endArrow=block;endFill=1;" target="gate3" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="header" parent="1" style="html=0;whiteSpace=wrap;overflow=hidden;rounded=0;arcSize=8;fillColor=#102C46;strokeColor=none;container=1;collapsible=0;recursiveResize=0;" value="" vertex="1">
+          <mxGeometry height="100" width="1760" as="geometry" />
+        </mxCell>
+        <mxCell id="title" parent="1" style="html=0;whiteSpace=wrap;overflow=hidden;text;fillColor=none;strokeColor=none;align=left;verticalAlign=top;spacing=0;fontFamily=DejaVu Sans;fontSize=30;fontColor=#FFFFFF;fontStyle=1;" value="OpenTwin | Ice Cream &amp; Desserts Truck" vertex="1">
+          <mxGeometry height="42" width="1350" x="40" y="18" as="geometry" />
+        </mxCell>
+        <mxCell id="subtitle" parent="1" style="html=0;whiteSpace=wrap;overflow=hidden;text;fillColor=none;strokeColor=none;align=left;verticalAlign=top;spacing=0;fontFamily=DejaVu Sans;fontSize=15;fontColor=#C8DCEB;fontStyle=0;" value="Verification matrix | Requirement evidence from baseline through production release" vertex="1">
+          <mxGeometry height="24" width="1370" x="40" y="62" as="geometry" />
+        </mxCell>
+        <mxCell id="page-no" parent="1" style="html=0;whiteSpace=wrap;overflow=hidden;text;fillColor=none;strokeColor=none;align=right;verticalAlign=top;spacing=0;fontFamily=DejaVu Sans;fontSize=17;fontColor=#FFFFFF;fontStyle=1;" value="04 / VERIFICATION" vertex="1">
+          <mxGeometry height="50" width="270" x="1450" y="27" as="geometry" />
+        </mxCell>
+        <mxCell id="footer" parent="1" style="html=0;whiteSpace=wrap;overflow=hidden;text;fillColor=none;strokeColor=none;align=left;verticalAlign=top;spacing=0;fontFamily=DejaVu Sans;fontSize=12;fontColor=#526779;fontStyle=0;" value="JFXAI4FTM • Proposed requirements baseline v0.1 • 12 Sep 2026 • Concept artwork is not a dimensioned engineering design" vertex="1">
+          <mxGeometry height="22" width="1680" x="40" y="1120" as="geometry" />
+        </mxCell>
+        <mxCell id="gate0" parent="1" style="html=0;whiteSpace=wrap;overflow=hidden;rounded=1;arcSize=8;fillColor=#FFFFFF;strokeColor=#D3DFE7;container=1;collapsible=0;recursiveResize=0;" value="" vertex="1">
+          <mxGeometry height="145" width="390" x="40" y="130" as="geometry" />
+        </mxCell>
+        <mxCell id="gate0-bar" parent="gate0" style="html=0;whiteSpace=wrap;overflow=hidden;rounded=0;arcSize=8;fillColor=#176F9B;strokeColor=none;container=1;collapsible=0;recursiveResize=0;" value="" vertex="1">
+          <mxGeometry height="5" width="390" as="geometry" />
+        </mxCell>
+        <mxCell id="gate0-title" parent="gate0" style="html=0;whiteSpace=wrap;overflow=hidden;text;fillColor=none;strokeColor=none;align=left;verticalAlign=top;spacing=0;fontFamily=DejaVu Sans;fontSize=18;fontColor=#176F9B;fontStyle=1;" value="G0 / BASELINE" vertex="1">
+          <mxGeometry height="25" width="362" x="14" y="13" as="geometry" />
+        </mxCell>
+        <mxCell id="gate0-body" parent="gate0" style="html=0;whiteSpace=wrap;overflow=hidden;text;fillColor=none;strokeColor=none;align=left;verticalAlign=top;spacing=0;fontFamily=DejaVu Sans;fontSize=15;fontColor=#203D52;fontStyle=0;" value="Mission, menu, jurisdiction, loads, occupancy&#xa;and hazards approved." vertex="1">
+          <mxGeometry height="93" width="362" x="14" y="41" as="geometry" />
+        </mxCell>
+        <mxCell id="gate1" parent="1" style="html=0;whiteSpace=wrap;overflow=hidden;rounded=1;arcSize=8;fillColor=#FFFFFF;strokeColor=#D3DFE7;container=1;collapsible=0;recursiveResize=0;" value="" vertex="1">
+          <mxGeometry height="145" width="390" x="470" y="130" as="geometry" />
+        </mxCell>
+        <mxCell id="gate1-bar" parent="gate1" style="html=0;whiteSpace=wrap;overflow=hidden;rounded=0;arcSize=8;fillColor=#946218;strokeColor=none;container=1;collapsible=0;recursiveResize=0;" value="" vertex="1">
+          <mxGeometry height="5" width="390" as="geometry" />
+        </mxCell>
+        <mxCell id="gate1-title" parent="gate1" style="html=0;whiteSpace=wrap;overflow=hidden;text;fillColor=none;strokeColor=none;align=left;verticalAlign=top;spacing=0;fontFamily=DejaVu Sans;fontSize=18;fontColor=#946218;fontStyle=1;" value="G1 / ENGINEERING" vertex="1">
+          <mxGeometry height="25" width="362" x="14" y="13" as="geometry" />
+        </mxCell>
+        <mxCell id="gate1-body" parent="gate1" style="html=0;whiteSpace=wrap;overflow=hidden;text;fillColor=none;strokeColor=none;align=left;verticalAlign=top;spacing=0;fontFamily=DejaVu Sans;fontSize=15;fontColor=#203D52;fontStyle=0;" value="Materials, interfaces, models and test plans&#xa;reviewed." vertex="1">
+          <mxGeometry height="93" width="362" x="14" y="41" as="geometry" />
+        </mxCell>
+        <mxCell id="gate2" parent="1" style="html=0;whiteSpace=wrap;overflow=hidden;rounded=1;arcSize=8;fillColor=#FFFFFF;strokeColor=#D3DFE7;container=1;collapsible=0;recursiveResize=0;" value="" vertex="1">
+          <mxGeometry height="145" width="390" x="900" y="130" as="geometry" />
+        </mxCell>
+        <mxCell id="gate2-bar" parent="gate2" style="html=0;whiteSpace=wrap;overflow=hidden;rounded=0;arcSize=8;fillColor=#B44036;strokeColor=none;container=1;collapsible=0;recursiveResize=0;" value="" vertex="1">
+          <mxGeometry height="5" width="390" as="geometry" />
+        </mxCell>
+        <mxCell id="gate2-title" parent="gate2" style="html=0;whiteSpace=wrap;overflow=hidden;text;fillColor=none;strokeColor=none;align=left;verticalAlign=top;spacing=0;fontFamily=DejaVu Sans;fontSize=18;fontColor=#B44036;fontStyle=1;" value="G2 / PROTOTYPE" vertex="1">
+          <mxGeometry height="25" width="362" x="14" y="13" as="geometry" />
+        </mxCell>
+        <mxCell id="gate2-body" parent="gate2" style="html=0;whiteSpace=wrap;overflow=hidden;text;fillColor=none;strokeColor=none;align=left;verticalAlign=top;spacing=0;fontFamily=DejaVu Sans;fontSize=15;fontColor=#203D52;fontStyle=0;" value="Representative integrated functions and&#xa;assemblies tested." vertex="1">
+          <mxGeometry height="93" width="362" x="14" y="41" as="geometry" />
+        </mxCell>
+        <mxCell id="gate3" parent="1" style="html=0;whiteSpace=wrap;overflow=hidden;rounded=1;arcSize=8;fillColor=#FFFFFF;strokeColor=#D3DFE7;container=1;collapsible=0;recursiveResize=0;" value="" vertex="1">
+          <mxGeometry height="145" width="390" x="1330" y="130" as="geometry" />
+        </mxCell>
+        <mxCell id="gate3-bar" parent="gate3" style="html=0;whiteSpace=wrap;overflow=hidden;rounded=0;arcSize=8;fillColor=#665093;strokeColor=none;container=1;collapsible=0;recursiveResize=0;" value="" vertex="1">
+          <mxGeometry height="5" width="390" as="geometry" />
+        </mxCell>
+        <mxCell id="gate3-title" parent="gate3" style="html=0;whiteSpace=wrap;overflow=hidden;text;fillColor=none;strokeColor=none;align=left;verticalAlign=top;spacing=0;fontFamily=DejaVu Sans;fontSize=18;fontColor=#665093;fontStyle=1;" value="G3 / RELEASE" vertex="1">
+          <mxGeometry height="25" width="362" x="14" y="13" as="geometry" />
+        </mxCell>
+        <mxCell id="gate3-body" parent="gate3" style="html=0;whiteSpace=wrap;overflow=hidden;text;fillColor=none;strokeColor=none;align=left;verticalAlign=top;spacing=0;fontFamily=DejaVu Sans;fontSize=15;fontColor=#203D52;fontStyle=0;" value="First article and each approved configuration&#xa;traced and checked." vertex="1">
+          <mxGeometry height="93" width="362" x="14" y="41" as="geometry" />
+        </mxCell>
+        <mxCell id="vh0" parent="1" style="html=0;whiteSpace=wrap;overflow=hidden;rounded=0;arcSize=8;fillColor=#102C46;strokeColor=#FFFFFF;container=1;collapsible=0;recursiveResize=0;" value="" vertex="1">
+          <mxGeometry height="44" width="160" x="40" y="310" as="geometry" />
+        </mxCell>
+        <mxCell id="vht0" parent="1" style="html=0;whiteSpace=wrap;overflow=hidden;text;fillColor=none;strokeColor=none;align=left;verticalAlign=top;spacing=0;fontFamily=DejaVu Sans;fontSize=14;fontColor=#FFFFFF;fontStyle=1;" value="Verification" vertex="1">
+          <mxGeometry height="25" width="140" x="50" y="321" as="geometry" />
+        </mxCell>
+        <mxCell id="vh1" parent="1" style="html=0;whiteSpace=wrap;overflow=hidden;rounded=0;arcSize=8;fillColor=#102C46;strokeColor=#FFFFFF;container=1;collapsible=0;recursiveResize=0;" value="" vertex="1">
+          <mxGeometry height="44" width="220" x="200" y="310" as="geometry" />
+        </mxCell>
+        <mxCell id="vht1" parent="1" style="html=0;whiteSpace=wrap;overflow=hidden;text;fillColor=none;strokeColor=none;align=left;verticalAlign=top;spacing=0;fontFamily=DejaVu Sans;fontSize=14;fontColor=#FFFFFF;fontStyle=1;" value="Req. IDs" vertex="1">
+          <mxGeometry height="25" width="200" x="210" y="321" as="geometry" />
+        </mxCell>
+        <mxCell id="vh2" parent="1" style="html=0;whiteSpace=wrap;overflow=hidden;rounded=0;arcSize=8;fillColor=#102C46;strokeColor=#FFFFFF;container=1;collapsible=0;recursiveResize=0;" value="" vertex="1">
+          <mxGeometry height="44" width="790" x="420" y="310" as="geometry" />
+        </mxCell>
+        <mxCell id="vht2" parent="1" style="html=0;whiteSpace=wrap;overflow=hidden;text;fillColor=none;strokeColor=none;align=left;verticalAlign=top;spacing=0;fontFamily=DejaVu Sans;fontSize=14;fontColor=#FFFFFF;fontStyle=1;" value="Evidence package" vertex="1">
+          <mxGeometry height="25" width="770" x="430" y="321" as="geometry" />
+        </mxCell>
+        <mxCell id="vh3" parent="1" style="html=0;whiteSpace=wrap;overflow=hidden;rounded=0;arcSize=8;fillColor=#102C46;strokeColor=#FFFFFF;container=1;collapsible=0;recursiveResize=0;" value="" vertex="1">
+          <mxGeometry height="44" width="550" x="1210" y="310" as="geometry" />
+        </mxCell>
+        <mxCell id="vht3" parent="1" style="html=0;whiteSpace=wrap;overflow=hidden;text;fillColor=none;strokeColor=none;align=left;verticalAlign=top;spacing=0;fontFamily=DejaVu Sans;fontSize=14;fontColor=#FFFFFF;fontStyle=1;" value="Acceptance / accountable role" vertex="1">
+          <mxGeometry height="25" width="530" x="1220" y="321" as="geometry" />
+        </mxCell>
+        <mxCell id="v0-0" parent="1" style="html=0;whiteSpace=wrap;overflow=hidden;rounded=0;arcSize=8;fillColor=#FFFFFF;strokeColor=#D3DFE7;container=1;collapsible=0;recursiveResize=0;" value="" vertex="1">
+          <mxGeometry height="78" width="160" x="40" y="355" as="geometry" />
+        </mxCell>
+        <mxCell id="vt0-0" parent="1" style="html=0;whiteSpace=wrap;overflow=hidden;text;fillColor=none;strokeColor=none;align=left;verticalAlign=top;spacing=0;fontFamily=DejaVu Sans;fontSize=13.1;fontColor=#203D52;fontStyle=1;" value="V01 / A I T D" vertex="1">
+          <mxGeometry height="62" width="140" x="50" y="363" as="geometry" />
+        </mxCell>
+        <mxCell id="v0-1" parent="1" style="html=0;whiteSpace=wrap;overflow=hidden;rounded=0;arcSize=8;fillColor=#FFFFFF;strokeColor=#D3DFE7;container=1;collapsible=0;recursiveResize=0;" value="" vertex="1">
+          <mxGeometry height="78" width="220" x="200" y="355" as="geometry" />
+        </mxCell>
+        <mxCell id="vt0-1" parent="1" style="html=0;whiteSpace=wrap;overflow=hidden;text;fillColor=none;strokeColor=none;align=left;verticalAlign=top;spacing=0;fontFamily=DejaVu Sans;fontSize=13.1;fontColor=#203D52;fontStyle=0;" value="R01–R04" vertex="1">
+          <mxGeometry height="62" width="200" x="210" y="363" as="geometry" />
+        </mxCell>
+        <mxCell id="v0-2" parent="1" style="html=0;whiteSpace=wrap;overflow=hidden;rounded=0;arcSize=8;fillColor=#FFFFFF;strokeColor=#D3DFE7;container=1;collapsible=0;recursiveResize=0;" value="" vertex="1">
+          <mxGeometry height="78" width="790" x="420" y="355" as="geometry" />
+        </mxCell>
+        <mxCell id="vt0-2" parent="1" style="html=0;whiteSpace=wrap;overflow=hidden;text;fillColor=none;strokeColor=none;align=left;verticalAlign=top;spacing=0;fontFamily=DejaVu Sans;fontSize=13.1;fontColor=#203D52;fontStyle=0;" value="Loaded mass and axle checks; structural retention; towing, deployment and stowage trials." vertex="1">
+          <mxGeometry height="62" width="770" x="430" y="363" as="geometry" />
+        </mxCell>
+        <mxCell id="v0-3" parent="1" style="html=0;whiteSpace=wrap;overflow=hidden;rounded=0;arcSize=8;fillColor=#FFFFFF;strokeColor=#D3DFE7;container=1;collapsible=0;recursiveResize=0;" value="" vertex="1">
+          <mxGeometry height="78" width="550" x="1210" y="355" as="geometry" />
+        </mxCell>
+        <mxCell id="vt0-3" parent="1" style="html=0;whiteSpace=wrap;overflow=hidden;text;fillColor=none;strokeColor=none;align=left;verticalAlign=top;spacing=0;fontFamily=DejaVu Sans;fontSize=13.1;fontColor=#203D52;fontStyle=0;" value="Approved vehicle ratings and stability limits.&#xa;Mechanical / vehicle integration." vertex="1">
+          <mxGeometry height="62" width="530" x="1220" y="363" as="geometry" />
+        </mxCell>
+        <mxCell id="v1-0" parent="1" style="html=0;whiteSpace=wrap;overflow=hidden;rounded=0;arcSize=8;fillColor=#EBF1F6;strokeColor=#D3DFE7;container=1;collapsible=0;recursiveResize=0;" value="" vertex="1">
+          <mxGeometry height="78" width="160" x="40" y="433" as="geometry" />
+        </mxCell>
+        <mxCell id="vt1-0" parent="1" style="html=0;whiteSpace=wrap;overflow=hidden;text;fillColor=none;strokeColor=none;align=left;verticalAlign=top;spacing=0;fontFamily=DejaVu Sans;fontSize=13.1;fontColor=#203D52;fontStyle=1;" value="V02 / I T" vertex="1">
+          <mxGeometry height="62" width="140" x="50" y="441" as="geometry" />
+        </mxCell>
+        <mxCell id="v1-1" parent="1" style="html=0;whiteSpace=wrap;overflow=hidden;rounded=0;arcSize=8;fillColor=#EBF1F6;strokeColor=#D3DFE7;container=1;collapsible=0;recursiveResize=0;" value="" vertex="1">
+          <mxGeometry height="78" width="220" x="200" y="433" as="geometry" />
+        </mxCell>
+        <mxCell id="vt1-1" parent="1" style="html=0;whiteSpace=wrap;overflow=hidden;text;fillColor=none;strokeColor=none;align=left;verticalAlign=top;spacing=0;fontFamily=DejaVu Sans;fontSize=13.1;fontColor=#203D52;fontStyle=0;" value="R05–R06, R15" vertex="1">
+          <mxGeometry height="62" width="200" x="210" y="441" as="geometry" />
+        </mxCell>
+        <mxCell id="v1-2" parent="1" style="html=0;whiteSpace=wrap;overflow=hidden;rounded=0;arcSize=8;fillColor=#EBF1F6;strokeColor=#D3DFE7;container=1;collapsible=0;recursiveResize=0;" value="" vertex="1">
+          <mxGeometry height="78" width="790" x="420" y="433" as="geometry" />
+        </mxCell>
+        <mxCell id="vt1-2" parent="1" style="html=0;whiteSpace=wrap;overflow=hidden;text;fillColor=none;strokeColor=none;align=left;verticalAlign=top;spacing=0;fontFamily=DejaVu Sans;fontSize=13.1;fontColor=#203D52;fontStyle=0;" value="Temperature mapping; pull-down and door-open cycles; power interruption; calibrated alarm and excursion logs." vertex="1">
+          <mxGeometry height="62" width="770" x="430" y="441" as="geometry" />
+        </mxCell>
+        <mxCell id="v1-3" parent="1" style="html=0;whiteSpace=wrap;overflow=hidden;rounded=0;arcSize=8;fillColor=#EBF1F6;strokeColor=#D3DFE7;container=1;collapsible=0;recursiveResize=0;" value="" vertex="1">
+          <mxGeometry height="78" width="550" x="1210" y="433" as="geometry" />
+        </mxCell>
+        <mxCell id="vt1-3" parent="1" style="html=0;whiteSpace=wrap;overflow=hidden;text;fillColor=none;strokeColor=none;align=left;verticalAlign=top;spacing=0;fontFamily=DejaVu Sans;fontSize=13.1;fontColor=#203D52;fontStyle=0;" value="Product-specific limits and response approved.&#xa;Cold-chain / thermal lead." vertex="1">
+          <mxGeometry height="62" width="530" x="1220" y="441" as="geometry" />
+        </mxCell>
+        <mxCell id="v2-0" parent="1" style="html=0;whiteSpace=wrap;overflow=hidden;rounded=0;arcSize=8;fillColor=#FFFFFF;strokeColor=#D3DFE7;container=1;collapsible=0;recursiveResize=0;" value="" vertex="1">
+          <mxGeometry height="78" width="160" x="40" y="511" as="geometry" />
+        </mxCell>
+        <mxCell id="vt2-0" parent="1" style="html=0;whiteSpace=wrap;overflow=hidden;text;fillColor=none;strokeColor=none;align=left;verticalAlign=top;spacing=0;fontFamily=DejaVu Sans;fontSize=13.1;fontColor=#203D52;fontStyle=1;" value="V03 / I T D" vertex="1">
+          <mxGeometry height="62" width="140" x="50" y="519" as="geometry" />
+        </mxCell>
+        <mxCell id="v2-1" parent="1" style="html=0;whiteSpace=wrap;overflow=hidden;rounded=0;arcSize=8;fillColor=#FFFFFF;strokeColor=#D3DFE7;container=1;collapsible=0;recursiveResize=0;" value="" vertex="1">
+          <mxGeometry height="78" width="220" x="200" y="511" as="geometry" />
+        </mxCell>
+        <mxCell id="vt2-1" parent="1" style="html=0;whiteSpace=wrap;overflow=hidden;text;fillColor=none;strokeColor=none;align=left;verticalAlign=top;spacing=0;fontFamily=DejaVu Sans;fontSize=13.1;fontColor=#203D52;fontStyle=0;" value="R07–R08, R11" vertex="1">
+          <mxGeometry height="62" width="200" x="210" y="519" as="geometry" />
+        </mxCell>
+        <mxCell id="v2-2" parent="1" style="html=0;whiteSpace=wrap;overflow=hidden;rounded=0;arcSize=8;fillColor=#FFFFFF;strokeColor=#D3DFE7;container=1;collapsible=0;recursiveResize=0;" value="" vertex="1">
+          <mxGeometry height="78" width="790" x="420" y="511" as="geometry" />
+        </mxCell>
+        <mxCell id="vt2-2" parent="1" style="html=0;whiteSpace=wrap;overflow=hidden;text;fillColor=none;strokeColor=none;align=left;verticalAlign=top;spacing=0;fontFamily=DejaVu Sans;fontSize=13.1;fontColor=#203D52;fontStyle=0;" value="Hygiene flow, cleaning, allergen information, accessible service, public separation and egress demonstration." vertex="1">
+          <mxGeometry height="62" width="770" x="430" y="519" as="geometry" />
+        </mxCell>
+        <mxCell id="v2-3" parent="1" style="html=0;whiteSpace=wrap;overflow=hidden;rounded=0;arcSize=8;fillColor=#FFFFFF;strokeColor=#D3DFE7;container=1;collapsible=0;recursiveResize=0;" value="" vertex="1">
+          <mxGeometry height="78" width="550" x="1210" y="511" as="geometry" />
+        </mxCell>
+        <mxCell id="vt2-3" parent="1" style="html=0;whiteSpace=wrap;overflow=hidden;text;fillColor=none;strokeColor=none;align=left;verticalAlign=top;spacing=0;fontFamily=DejaVu Sans;fontSize=13.1;fontColor=#203D52;fontStyle=0;" value="Local food and accessibility criteria.&#xa;Food-safety / human factors." vertex="1">
+          <mxGeometry height="62" width="530" x="1220" y="519" as="geometry" />
+        </mxCell>
+        <mxCell id="v3-0" parent="1" style="html=0;whiteSpace=wrap;overflow=hidden;rounded=0;arcSize=8;fillColor=#EBF1F6;strokeColor=#D3DFE7;container=1;collapsible=0;recursiveResize=0;" value="" vertex="1">
+          <mxGeometry height="78" width="160" x="40" y="589" as="geometry" />
+        </mxCell>
+        <mxCell id="vt3-0" parent="1" style="html=0;whiteSpace=wrap;overflow=hidden;text;fillColor=none;strokeColor=none;align=left;verticalAlign=top;spacing=0;fontFamily=DejaVu Sans;fontSize=13.1;fontColor=#203D52;fontStyle=1;" value="V04 / I T" vertex="1">
+          <mxGeometry height="62" width="140" x="50" y="597" as="geometry" />
+        </mxCell>
+        <mxCell id="v3-1" parent="1" style="html=0;whiteSpace=wrap;overflow=hidden;rounded=0;arcSize=8;fillColor=#EBF1F6;strokeColor=#D3DFE7;container=1;collapsible=0;recursiveResize=0;" value="" vertex="1">
+          <mxGeometry height="78" width="220" x="200" y="589" as="geometry" />
+        </mxCell>
+        <mxCell id="vt3-1" parent="1" style="html=0;whiteSpace=wrap;overflow=hidden;text;fillColor=none;strokeColor=none;align=left;verticalAlign=top;spacing=0;fontFamily=DejaVu Sans;fontSize=13.1;fontColor=#203D52;fontStyle=0;" value="R09–R10" vertex="1">
+          <mxGeometry height="62" width="200" x="210" y="597" as="geometry" />
+        </mxCell>
+        <mxCell id="v3-2" parent="1" style="html=0;whiteSpace=wrap;overflow=hidden;rounded=0;arcSize=8;fillColor=#EBF1F6;strokeColor=#D3DFE7;container=1;collapsible=0;recursiveResize=0;" value="" vertex="1">
+          <mxGeometry height="78" width="790" x="420" y="589" as="geometry" />
+        </mxCell>
+        <mxCell id="vt3-2" parent="1" style="html=0;whiteSpace=wrap;overflow=hidden;text;fillColor=none;strokeColor=none;align=left;verticalAlign=top;spacing=0;fontFamily=DejaVu Sans;fontSize=13.1;fontColor=#203D52;fontStyle=0;" value="Potable/grey/black separation; pressure and leak checks; demand balance; low/high level and disposal trials." vertex="1">
+          <mxGeometry height="62" width="770" x="430" y="597" as="geometry" />
+        </mxCell>
+        <mxCell id="v3-3" parent="1" style="html=0;whiteSpace=wrap;overflow=hidden;rounded=0;arcSize=8;fillColor=#EBF1F6;strokeColor=#D3DFE7;container=1;collapsible=0;recursiveResize=0;" value="" vertex="1">
+          <mxGeometry height="78" width="550" x="1210" y="589" as="geometry" />
+        </mxCell>
+        <mxCell id="vt3-3" parent="1" style="html=0;whiteSpace=wrap;overflow=hidden;text;fillColor=none;strokeColor=none;align=left;verticalAlign=top;spacing=0;fontFamily=DejaVu Sans;fontSize=13.1;fontColor=#203D52;fontStyle=0;" value="Approved shift profile with containment.&#xa;Plumbing / sanitation." vertex="1">
+          <mxGeometry height="62" width="530" x="1220" y="597" as="geometry" />
+        </mxCell>
+        <mxCell id="v4-0" parent="1" style="html=0;whiteSpace=wrap;overflow=hidden;rounded=0;arcSize=8;fillColor=#FFFFFF;strokeColor=#D3DFE7;container=1;collapsible=0;recursiveResize=0;" value="" vertex="1">
+          <mxGeometry height="78" width="160" x="40" y="667" as="geometry" />
+        </mxCell>
+        <mxCell id="vt4-0" parent="1" style="html=0;whiteSpace=wrap;overflow=hidden;text;fillColor=none;strokeColor=none;align=left;verticalAlign=top;spacing=0;fontFamily=DejaVu Sans;fontSize=13.1;fontColor=#203D52;fontStyle=1;" value="V05 / A I T" vertex="1">
+          <mxGeometry height="62" width="140" x="50" y="675" as="geometry" />
+        </mxCell>
+        <mxCell id="v4-1" parent="1" style="html=0;whiteSpace=wrap;overflow=hidden;rounded=0;arcSize=8;fillColor=#FFFFFF;strokeColor=#D3DFE7;container=1;collapsible=0;recursiveResize=0;" value="" vertex="1">
+          <mxGeometry height="78" width="220" x="200" y="667" as="geometry" />
+        </mxCell>
+        <mxCell id="vt4-1" parent="1" style="html=0;whiteSpace=wrap;overflow=hidden;text;fillColor=none;strokeColor=none;align=left;verticalAlign=top;spacing=0;fontFamily=DejaVu Sans;fontSize=13.1;fontColor=#203D52;fontStyle=0;" value="R12, R22" vertex="1">
+          <mxGeometry height="62" width="200" x="210" y="675" as="geometry" />
+        </mxCell>
+        <mxCell id="v4-2" parent="1" style="html=0;whiteSpace=wrap;overflow=hidden;rounded=0;arcSize=8;fillColor=#FFFFFF;strokeColor=#D3DFE7;container=1;collapsible=0;recursiveResize=0;" value="" vertex="1">
+          <mxGeometry height="78" width="790" x="420" y="667" as="geometry" />
+        </mxCell>
+        <mxCell id="vt4-2" parent="1" style="html=0;whiteSpace=wrap;overflow=hidden;text;fillColor=none;strokeColor=none;align=left;verticalAlign=top;spacing=0;fontFamily=DejaVu Sans;fontSize=13.1;fontColor=#203D52;fontStyle=0;" value="Material and panel dossier; representative installed fire/thermal/smoke evidence; hot-service variant hazard review." vertex="1">
+          <mxGeometry height="62" width="770" x="430" y="675" as="geometry" />
+        </mxCell>
+        <mxCell id="v4-3" parent="1" style="html=0;whiteSpace=wrap;overflow=hidden;rounded=0;arcSize=8;fillColor=#FFFFFF;strokeColor=#D3DFE7;container=1;collapsible=0;recursiveResize=0;" value="" vertex="1">
+          <mxGeometry height="78" width="550" x="1210" y="667" as="geometry" />
+        </mxCell>
+        <mxCell id="vt4-3" parent="1" style="html=0;whiteSpace=wrap;overflow=hidden;text;fillColor=none;strokeColor=none;align=left;verticalAlign=top;spacing=0;fontFamily=DejaVu Sans;fontSize=13.1;fontColor=#203D52;fontStyle=0;" value="Whole assembly and option-specific criteria.&#xa;Fire / materials specialists." vertex="1">
+          <mxGeometry height="62" width="530" x="1220" y="675" as="geometry" />
+        </mxCell>
+        <mxCell id="v5-0" parent="1" style="html=0;whiteSpace=wrap;overflow=hidden;rounded=0;arcSize=8;fillColor=#EBF1F6;strokeColor=#D3DFE7;container=1;collapsible=0;recursiveResize=0;" value="" vertex="1">
+          <mxGeometry height="78" width="160" x="40" y="745" as="geometry" />
+        </mxCell>
+        <mxCell id="vt5-0" parent="1" style="html=0;whiteSpace=wrap;overflow=hidden;text;fillColor=none;strokeColor=none;align=left;verticalAlign=top;spacing=0;fontFamily=DejaVu Sans;fontSize=13.1;fontColor=#203D52;fontStyle=1;" value="V06 / A I T D" vertex="1">
+          <mxGeometry height="62" width="140" x="50" y="753" as="geometry" />
+        </mxCell>
+        <mxCell id="v5-1" parent="1" style="html=0;whiteSpace=wrap;overflow=hidden;rounded=0;arcSize=8;fillColor=#EBF1F6;strokeColor=#D3DFE7;container=1;collapsible=0;recursiveResize=0;" value="" vertex="1">
+          <mxGeometry height="78" width="220" x="200" y="745" as="geometry" />
+        </mxCell>
+        <mxCell id="vt5-1" parent="1" style="html=0;whiteSpace=wrap;overflow=hidden;text;fillColor=none;strokeColor=none;align=left;verticalAlign=top;spacing=0;fontFamily=DejaVu Sans;fontSize=13.1;fontColor=#203D52;fontStyle=0;" value="R13–R16" vertex="1">
+          <mxGeometry height="62" width="200" x="210" y="753" as="geometry" />
+        </mxCell>
+        <mxCell id="v5-2" parent="1" style="html=0;whiteSpace=wrap;overflow=hidden;rounded=0;arcSize=8;fillColor=#EBF1F6;strokeColor=#D3DFE7;container=1;collapsible=0;recursiveResize=0;" value="" vertex="1">
+          <mxGeometry height="78" width="790" x="420" y="745" as="geometry" />
+        </mxCell>
+        <mxCell id="vt5-2" parent="1" style="html=0;whiteSpace=wrap;overflow=hidden;text;fillColor=none;strokeColor=none;align=left;verticalAlign=top;spacing=0;fontFamily=DejaVu Sans;fontSize=13.1;fontColor=#203D52;fontStyle=0;" value="Coincident load; PV/battery/shore transitions; BMS and protection; emergency shutdown; local operation under faults." vertex="1">
+          <mxGeometry height="62" width="770" x="430" y="753" as="geometry" />
+        </mxCell>
+        <mxCell id="v5-3" parent="1" style="html=0;whiteSpace=wrap;overflow=hidden;rounded=0;arcSize=8;fillColor=#EBF1F6;strokeColor=#D3DFE7;container=1;collapsible=0;recursiveResize=0;" value="" vertex="1">
+          <mxGeometry height="78" width="550" x="1210" y="745" as="geometry" />
+        </mxCell>
+        <mxCell id="vt5-3" parent="1" style="html=0;whiteSpace=wrap;overflow=hidden;text;fillColor=none;strokeColor=none;align=left;verticalAlign=top;spacing=0;fontFamily=DejaVu Sans;fontSize=13.1;fontColor=#203D52;fontStyle=0;" value="Every defined fault state matches matrix.&#xa;Electrical / safety." vertex="1">
+          <mxGeometry height="62" width="530" x="1220" y="753" as="geometry" />
+        </mxCell>
+        <mxCell id="v6-0" parent="1" style="html=0;whiteSpace=wrap;overflow=hidden;rounded=0;arcSize=8;fillColor=#FFFFFF;strokeColor=#D3DFE7;container=1;collapsible=0;recursiveResize=0;" value="" vertex="1">
+          <mxGeometry height="78" width="160" x="40" y="823" as="geometry" />
+        </mxCell>
+        <mxCell id="vt6-0" parent="1" style="html=0;whiteSpace=wrap;overflow=hidden;text;fillColor=none;strokeColor=none;align=left;verticalAlign=top;spacing=0;fontFamily=DejaVu Sans;fontSize=13.1;fontColor=#203D52;fontStyle=1;" value="V07 / I T D" vertex="1">
+          <mxGeometry height="62" width="140" x="50" y="831" as="geometry" />
+        </mxCell>
+        <mxCell id="v6-1" parent="1" style="html=0;whiteSpace=wrap;overflow=hidden;rounded=0;arcSize=8;fillColor=#FFFFFF;strokeColor=#D3DFE7;container=1;collapsible=0;recursiveResize=0;" value="" vertex="1">
+          <mxGeometry height="78" width="220" x="200" y="823" as="geometry" />
+        </mxCell>
+        <mxCell id="vt6-1" parent="1" style="html=0;whiteSpace=wrap;overflow=hidden;text;fillColor=none;strokeColor=none;align=left;verticalAlign=top;spacing=0;fontFamily=DejaVu Sans;fontSize=13.1;fontColor=#203D52;fontStyle=0;" value="R17–R21" vertex="1">
+          <mxGeometry height="62" width="200" x="210" y="831" as="geometry" />
+        </mxCell>
+        <mxCell id="v6-2" parent="1" style="html=0;whiteSpace=wrap;overflow=hidden;rounded=0;arcSize=8;fillColor=#FFFFFF;strokeColor=#D3DFE7;container=1;collapsible=0;recursiveResize=0;" value="" vertex="1">
+          <mxGeometry height="78" width="790" x="420" y="823" as="geometry" />
+        </mxCell>
+        <mxCell id="vt6-2" parent="1" style="html=0;whiteSpace=wrap;overflow=hidden;text;fillColor=none;strokeColor=none;align=left;verticalAlign=top;spacing=0;fontFamily=DejaVu Sans;fontSize=13.1;fontColor=#203D52;fontStyle=0;" value="Twin identity and provenance; adapter substitution; stale/offline data; bounded recommendations and attempted&#xa;bypass." vertex="1">
+          <mxGeometry height="62" width="770" x="430" y="831" as="geometry" />
+        </mxCell>
+        <mxCell id="v6-3" parent="1" style="html=0;whiteSpace=wrap;overflow=hidden;rounded=0;arcSize=8;fillColor=#FFFFFF;strokeColor=#D3DFE7;container=1;collapsible=0;recursiveResize=0;" value="" vertex="1">
+          <mxGeometry height="78" width="550" x="1210" y="823" as="geometry" />
+        </mxCell>
+        <mxCell id="vt6-3" parent="1" style="html=0;whiteSpace=wrap;overflow=hidden;text;fillColor=none;strokeColor=none;align=left;verticalAlign=top;spacing=0;fontFamily=DejaVu Sans;fontSize=13.1;fontColor=#203D52;fontStyle=0;" value="Local safety survives data/AI loss.&#xa;Integration / software / safety." vertex="1">
+          <mxGeometry height="62" width="530" x="1220" y="831" as="geometry" />
+        </mxCell>
+        <mxCell id="v7-0" parent="1" style="html=0;whiteSpace=wrap;overflow=hidden;rounded=0;arcSize=8;fillColor=#EBF1F6;strokeColor=#D3DFE7;container=1;collapsible=0;recursiveResize=0;" value="" vertex="1">
+          <mxGeometry height="78" width="160" x="40" y="901" as="geometry" />
+        </mxCell>
+        <mxCell id="vt7-0" parent="1" style="html=0;whiteSpace=wrap;overflow=hidden;text;fillColor=none;strokeColor=none;align=left;verticalAlign=top;spacing=0;fontFamily=DejaVu Sans;fontSize=13.1;fontColor=#203D52;fontStyle=1;" value="V08 / A I T D" vertex="1">
+          <mxGeometry height="62" width="140" x="50" y="909" as="geometry" />
+        </mxCell>
+        <mxCell id="v7-1" parent="1" style="html=0;whiteSpace=wrap;overflow=hidden;rounded=0;arcSize=8;fillColor=#EBF1F6;strokeColor=#D3DFE7;container=1;collapsible=0;recursiveResize=0;" value="" vertex="1">
+          <mxGeometry height="78" width="220" x="200" y="901" as="geometry" />
+        </mxCell>
+        <mxCell id="vt7-1" parent="1" style="html=0;whiteSpace=wrap;overflow=hidden;text;fillColor=none;strokeColor=none;align=left;verticalAlign=top;spacing=0;fontFamily=DejaVu Sans;fontSize=13.1;fontColor=#203D52;fontStyle=0;" value="R23–R24" vertex="1">
+          <mxGeometry height="62" width="200" x="210" y="909" as="geometry" />
+        </mxCell>
+        <mxCell id="v7-2" parent="1" style="html=0;whiteSpace=wrap;overflow=hidden;rounded=0;arcSize=8;fillColor=#EBF1F6;strokeColor=#D3DFE7;container=1;collapsible=0;recursiveResize=0;" value="" vertex="1">
+          <mxGeometry height="78" width="790" x="420" y="901" as="geometry" />
+        </mxCell>
+        <mxCell id="vt7-2" parent="1" style="html=0;whiteSpace=wrap;overflow=hidden;text;fillColor=none;strokeColor=none;align=left;verticalAlign=top;spacing=0;fontFamily=DejaVu Sans;fontSize=13.1;fontColor=#203D52;fontStyle=0;" value="Model-test correlation; configuration audit; service demo; first article, end-of-line and serial traceability." vertex="1">
+          <mxGeometry height="62" width="770" x="430" y="909" as="geometry" />
+        </mxCell>
+        <mxCell id="v7-3" parent="1" style="html=0;whiteSpace=wrap;overflow=hidden;rounded=0;arcSize=8;fillColor=#EBF1F6;strokeColor=#D3DFE7;container=1;collapsible=0;recursiveResize=0;" value="" vertex="1">
+          <mxGeometry height="78" width="550" x="1210" y="901" as="geometry" />
+        </mxCell>
+        <mxCell id="vt7-3" parent="1" style="html=0;whiteSpace=wrap;overflow=hidden;text;fillColor=none;strokeColor=none;align=left;verticalAlign=top;spacing=0;fontFamily=DejaVu Sans;fontSize=13.1;fontColor=#203D52;fontStyle=0;" value="Evidence complete for each release variant.&#xa;MBSE / quality / manufacturing." vertex="1">
+          <mxGeometry height="62" width="530" x="1220" y="909" as="geometry" />
+        </mxCell>
+        <mxCell id="verification-methods" parent="1" style="html=0;whiteSpace=wrap;overflow=hidden;rounded=1;arcSize=8;fillColor=#FFFFFF;strokeColor=#D3DFE7;container=1;collapsible=0;recursiveResize=0;" value="" vertex="1">
+          <mxGeometry height="125" width="815" x="40" y="980" as="geometry" />
+        </mxCell>
+        <mxCell id="verification-methods-bar" parent="verification-methods" style="html=0;whiteSpace=wrap;overflow=hidden;rounded=0;arcSize=8;fillColor=#946218;strokeColor=none;container=1;collapsible=0;recursiveResize=0;" value="" vertex="1">
+          <mxGeometry height="5" width="815" as="geometry" />
+        </mxCell>
+        <mxCell id="verification-methods-title" parent="verification-methods" style="html=0;whiteSpace=wrap;overflow=hidden;text;fillColor=none;strokeColor=none;align=left;verticalAlign=top;spacing=0;fontFamily=DejaVu Sans;fontSize=18;fontColor=#946218;fontStyle=1;" value="Method legend" vertex="1">
+          <mxGeometry height="25" width="787" x="14" y="13" as="geometry" />
+        </mxCell>
+        <mxCell id="verification-methods-body" parent="verification-methods" style="html=0;whiteSpace=wrap;overflow=hidden;text;fillColor=none;strokeColor=none;align=left;verticalAlign=top;spacing=0;fontFamily=DejaVu Sans;fontSize=14;fontColor=#203D52;fontStyle=0;" value="A = analysis • I = inspection • T = test • D = demonstration. Test methods and pass/fail values are selected&#xa;with the authority having jurisdiction and the approved food-safety plan." vertex="1">
+          <mxGeometry height="73" width="787" x="14" y="41" as="geometry" />
+        </mxCell>
+        <mxCell id="release-blocker" parent="1" style="html=0;whiteSpace=wrap;overflow=hidden;rounded=1;arcSize=8;fillColor=#FFFFFF;strokeColor=#D3DFE7;container=1;collapsible=0;recursiveResize=0;" value="" vertex="1">
+          <mxGeometry height="125" width="815" x="905" y="980" as="geometry" />
+        </mxCell>
+        <mxCell id="release-blocker-bar" parent="release-blocker" style="html=0;whiteSpace=wrap;overflow=hidden;rounded=0;arcSize=8;fillColor=#B44036;strokeColor=none;container=1;collapsible=0;recursiveResize=0;" value="" vertex="1">
+          <mxGeometry height="5" width="815" as="geometry" />
+        </mxCell>
+        <mxCell id="release-blocker-title" parent="release-blocker" style="html=0;whiteSpace=wrap;overflow=hidden;text;fillColor=none;strokeColor=none;align=left;verticalAlign=top;spacing=0;fontFamily=DejaVu Sans;fontSize=18;fontColor=#B44036;fontStyle=1;" value="Release blocker" vertex="1">
+          <mxGeometry height="25" width="787" x="14" y="13" as="geometry" />
+        </mxCell>
+        <mxCell id="release-blocker-body" parent="release-blocker" style="html=0;whiteSpace=wrap;overflow=hidden;text;fillColor=none;strokeColor=none;align=left;verticalAlign=top;spacing=0;fontFamily=DejaVu Sans;fontSize=14;fontColor=#203D52;fontStyle=0;" value="Unresolved safety-critical TBDs, unqualified composite assemblies, missing cold-chain evidence or loss of local&#xa;fallback prevents prototype or production release." vertex="1">
+          <mxGeometry height="73" width="787" x="14" y="41" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
