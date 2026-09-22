@@ -1,0 +1,85 @@
+<mxfile host="app.diagrams.net" modified="2026-09-22T00:00:00.000Z" agent="Gemini" version="24.7.17" type="device">
+  <diagram id="sysml_req_01" name="01 - SysML Requerimientos">
+    <mxGraphModel dx="1600" dy="1000" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1600" pageHeight="1000" math="0" shadow="0">
+      <root>
+        <mxCell id="0"/>
+        <mxCell id="1" parent="0"/>
+        <mxCell id="title" value="SysML Requirements Diagram — OpenTwin Mini Teardrop Trailer" style="rounded=1;whiteSpace=wrap;html=1;fontSize=24;fontStyle=1;align=center;verticalAlign=middle;" parent="1" vertex="1">
+          <mxGeometry x="180" y="25" width="1240" height="65" as="geometry"/>
+        </mxCell>
+        <mxCell id="goal_box" value="&lt;b&gt;&amp;laquo;requirement&amp;raquo; G-01 a G-10: System Goals&lt;/b&gt;&lt;br&gt;&amp;bull; G-01 Portable operation[cite: 1]&lt;br&gt;&amp;bull; G-02 Safe towing/deployment[cite: 1]&lt;br&gt;&amp;bull; G-03 Hygienic handling[cite: 1]&lt;br&gt;&amp;bull; G-04 Low-energy operation[cite: 1]&lt;br&gt;&amp;bull; G-05 Modular equipment bays[cite: 1]" style="rounded=1;whiteSpace=wrap;html=1;fontSize=14;align=left;verticalAlign=top;spacing=10;" parent="1" vertex="1">
+          <mxGeometry x="70" y="120" width="455" height="360" as="geometry"/>
+        </mxCell>
+        <mxCell id="fr_box" value="&lt;b&gt;&amp;laquo;requirement&amp;raquo; FR-01 a FR-12: Functional Requirements&lt;/b&gt;&lt;br&gt;&amp;bull; FR-01: Tow &amp; Transport interface[cite: 1]&lt;br&gt;&amp;bull; FR-02/03: Deploy &amp; Service opening[cite: 1]&lt;br&gt;&amp;bull; FR-04/05: Configurable storage &amp; Thermal control[cite: 1]&lt;br&gt;&amp;bull; FR-06: Protected power distribution[cite: 1]&lt;br&gt;&amp;bull; FR-07/08/09: Water, Lighting &amp; Telemetry Gateway[cite: 1]&lt;br&gt;&amp;bull; FR-10/11/12: Configuration, Offline &amp; Safe Shutdown[cite: 1]" style="rounded=1;whiteSpace=wrap;html=1;fontSize=14;align=left;verticalAlign=top;spacing=10;" parent="1" vertex="1">
+          <mxGeometry x="565" y="120" width="455" height="360" as="geometry"/>
+        </mxCell>
+        <mxCell id="nfr_box" value="&lt;b&gt;&amp;laquo;requirement&amp;raquo; NFR-01 a NFR-12: Non-Functional Requirements&lt;/b&gt;&lt;br&gt;&amp;bull; NFR-01/02/03: Safety, Structural &amp; Stability[cite: 1]&lt;br&gt;&amp;bull; NFR-04/05/06: Hygiene, Electrical &amp; Maintainability[cite: 1]&lt;br&gt;&amp;bull; NFR-07/08/09: Modularity, Interoperability &amp; Cybersecurity[cite: 1]&lt;br&gt;&amp;bull; NFR-10/11/12: Privacy, Availability &amp; Sustainability[cite: 1]" style="rounded=1;whiteSpace=wrap;html=1;fontSize=14;align=left;verticalAlign=top;spacing=10;" parent="1" vertex="1">
+          <mxGeometry x="1060" y="120" width="455" height="360" as="geometry"/>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="sysml_bdd_02" name="02 - SysML BDD (Bloques)">
+    <mxGraphModel dx="1600" dy="1000" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1600" pageHeight="1000" math="0" shadow="0">
+      <root>
+        <mxCell id="0"/>
+        <mxCell id="1" parent="0"/>
+        <mxCell id="title2" value="SysML Block Definition Diagram (BDD) — OpenTwin Mini Teardrop" style="rounded=1;whiteSpace=wrap;html=1;fontSize=24;fontStyle=1;align=center;verticalAlign=middle;" parent="1" vertex="1">
+          <mxGeometry x="180" y="25" width="1240" height="65" as="geometry"/>
+        </mxCell>
+        <mxCell id="b1" value="&lt;b&gt;&amp;laquo;block&amp;raquo; PHYSICAL TRAILER&lt;/b&gt;&lt;br&gt;Chassis &amp; shell[cite: 1]&lt;br&gt;Tow coupling[cite: 1]&lt;br&gt;Stabilizers[cite: 1]&lt;br&gt;Service hatch / awning[cite: 1]&lt;br&gt;Cabinetry &amp; counters[cite: 1]" style="rounded=1;whiteSpace=wrap;html=1;fontSize=14;align=left;verticalAlign=top;spacing=10;" parent="1" vertex="1">
+          <mxGeometry x="70" y="150" width="340" height="260" as="geometry"/>
+        </mxCell>
+        <mxCell id="b2" value="&lt;b&gt;&amp;laquo;block&amp;raquo; FOOD-SERVICE MODULES&lt;/b&gt;&lt;br&gt;Cold/dry storage[cite: 1]&lt;br&gt;Milk/chocolate prep equipment[cite: 1]&lt;br&gt;Cleaning / water module[cite: 1]&lt;br&gt;Packaging storage[cite: 1]" style="rounded=1;whiteSpace=wrap;html=1;fontSize=14;align=left;verticalAlign=top;spacing=10;" parent="1" vertex="1">
+          <mxGeometry x="450" y="150" width="340" height="260" as="geometry"/>
+        </mxCell>
+        <mxCell id="b3" value="&lt;b&gt;&amp;laquo;block&amp;raquo; ENERGY &amp; CONTROL&lt;/b&gt;&lt;br&gt;Shore power / Solar[cite: 1]&lt;br&gt;Battery / DC bus[cite: 1]&lt;br&gt;Protection panel[cite: 1]&lt;br&gt;Lighting / sensors[cite: 1]" style="rounded=1;whiteSpace=wrap;html=1;fontSize=14;align=left;verticalAlign=top;spacing=10;" parent="1" vertex="1">
+          <mxGeometry x="830" y="150" width="340" height="260" as="geometry"/>
+        </mxCell>
+        <mxCell id="b4" value="&lt;b&gt;&amp;laquo;block&amp;raquo; OPENTWIN EDGE &amp; DIGITAL TWIN&lt;/b&gt;&lt;br&gt;Local gateway &amp; sensor adapters[cite: 1]&lt;br&gt;Offline event buffer[cite: 1]&lt;br&gt;Asset identity &amp; telemetry dashboard[cite: 1]&lt;br&gt;Maintenance records[cite: 1]" style="rounded=1;whiteSpace=wrap;html=1;fontSize=14;align=left;verticalAlign=top;spacing=10;" parent="1" vertex="1">
+          <mxGeometry x="1210" y="150" width="340" height="260" as="geometry"/>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="sysml_ibd_03" name="03 - SysML IBD &amp; Interfaces">
+    <mxGraphModel dx="1600" dy="1000" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1600" pageHeight="1000" math="0" shadow="0">
+      <root>
+        <mxCell id="0"/>
+        <mxCell id="1" parent="0"/>
+        <mxCell id="title3" value="SysML Internal Block Diagram (IBD) &amp; Interfaces — OpenTwin" style="rounded=1;whiteSpace=wrap;html=1;fontSize=24;fontStyle=1;align=center;verticalAlign=middle;" parent="1" vertex="1">
+          <mxGeometry x="180" y="25" width="1240" height="65" as="geometry"/>
+        </mxCell>
+        <mxCell id="if1" value="&lt;b&gt;&amp;laquo;interface&amp;raquo; IF-01 Mechanical&lt;/b&gt;&lt;br&gt;Tow coupling, safety attachment, jack/stabilizer points, wheel/axle, service mounts[cite: 1]." style="rounded=1;whiteSpace=wrap;html=1;fontSize=14;align=left;verticalAlign=top;spacing=10;" parent="1" vertex="1">
+          <mxGeometry x="70" y="140" width="690" height="150" as="geometry"/>
+        </mxCell>
+        <mxCell id="if2" value="&lt;b&gt;&amp;laquo;interface&amp;raquo; IF-02 Electrical&lt;/b&gt;&lt;br&gt;Protected AC input, low-voltage DC distribution, appliance circuits, lighting, sensor power[cite: 1]." style="rounded=1;whiteSpace=wrap;html=1;fontSize=14;align=left;verticalAlign=top;spacing=10;" parent="1" vertex="1">
+          <mxGeometry x="830" y="140" width="690" height="150" as="geometry"/>
+        </mxCell>
+        <mxCell id="if3" value="&lt;b&gt;&amp;laquo;interface&amp;raquo; IF-03 Thermal &amp; IF-04 Water&lt;/b&gt;&lt;br&gt;Thermal: Insulated storage, ventilation, temperature sensing[cite: 1].&lt;br&gt;Water: Potable fill, pump, sink, drain, waste tank[cite: 1]." style="rounded=1;whiteSpace=wrap;html=1;fontSize=14;align=left;verticalAlign=top;spacing=10;" parent="1" vertex="1">
+          <mxGeometry x="70" y="320" width="690" height="150" as="geometry"/>
+        </mxCell>
+        <mxCell id="if4" value="&lt;b&gt;&amp;laquo;interface&amp;raquo; IF-05 Data &amp; IF-06 Human&lt;/b&gt;&lt;br&gt;Data: Local sensor bus, IP interface, buffered events during offline[cite: 1].&lt;br&gt;Human: Service counter, operator controls, maintenance access[cite: 1]." style="rounded=1;whiteSpace=wrap;html=1;fontSize=14;align=left;verticalAlign=top;spacing=10;" parent="1" vertex="1">
+          <mxGeometry x="830" y="320" width="690" height="150" as="geometry"/>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="sysml_vv_04" name="04 - SysML Traceability &amp; V&amp;V">
+    <mxGraphModel dx="1600" dy="1000" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1600" pageHeight="1000" math="0" shadow="0">
+      <root>
+        <mxCell id="0"/>
+        <mxCell id="1" parent="0"/>
+        <mxCell id="title4" value="Verification, Validation &amp; Traceability Matrix — SysML" style="rounded=1;whiteSpace=wrap;html=1;fontSize=24;fontStyle=1;align=center;verticalAlign=middle;" parent="1" vertex="1">
+          <mxGeometry x="180" y="25" width="1240" height="65" as="geometry"/>
+        </mxCell>
+        <mxCell id="v_box" value="&lt;b&gt;&amp;laquo;verificationMethod&amp;raquo; V-01 to V-06&lt;/b&gt;&lt;br&gt;&amp;bull; V-01 Inspection: Dimensions, access, stowage, labeling[cite: 1]&lt;br&gt;&amp;bull; V-02 Analysis: Mass budget, COG envelope, loads, thermal[cite: 1]&lt;br&gt;&amp;bull; V-03 Demonstration: Setup/stow sequence, workflow[cite: 1]&lt;br&gt;&amp;bull; V-04 Test: Electrical protection, temperature monitoring, telemetry[cite: 1]&lt;br&gt;&amp;bull; V-05 Road Validation: Controlled towing and deployment tests[cite: 1]&lt;br&gt;&amp;bull; V-06 Digital Verification: Twin state, timestamps, version traceability[cite: 1]" style="rounded=1;whiteSpace=wrap;html=1;fontSize=14;align=left;verticalAlign=top;spacing=10;" parent="1" vertex="1">
+          <mxGeometry x="230" y="140" width="1140" height="300" as="geometry"/>
+        </mxCell>
+        <mxCell id="trace_rule" value="&lt;b&gt;SysML Traceability Rule&lt;/b&gt;&lt;br&gt;Stakeholder Need → System Requirement → Subsystem Requirement → Design Element → Verification Method → Evidence → Configuration Baseline[cite: 1]" style="rounded=1;whiteSpace=wrap;html=1;fontSize=17;fontStyle=1;align=center;verticalAlign=middle;" parent="1" vertex="1">
+          <mxGeometry x="230" y="480" width="1140" height="110" as="geometry"/>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
