@@ -1,0 +1,72 @@
+<mxfile host="Electron" pages="2">
+  <diagram name="Vista Arquitectura IoT" id="mxV92yELlHmJExfhpSED">
+    <mxGraphModel dx="1229" dy="759" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1920" pageHeight="1080" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="2" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#cc6600;fontSize=16;fontStyle=1;" value="Camión Eléctrico de Helados OpenTwin" vertex="1">
+          <mxGeometry height="60" width="320" x="400" y="60" as="geometry" />
+        </mxCell>
+        <mxCell id="3" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" value="Módulo Refrigeración (IF-01)" vertex="1">
+          <mxGeometry height="80" width="220" x="100" y="180" as="geometry" />
+        </mxCell>
+        <mxCell id="4" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" value="Distribución Eléctrica (IF-02)" vertex="1">
+          <mxGeometry height="80" width="220" x="400" y="180" as="geometry" />
+        </mxCell>
+        <mxCell id="5" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" value="Cabina y Telemetría (IF-03/IF-04)" vertex="1">
+          <mxGeometry height="80" width="220" x="700" y="180" as="geometry" />
+        </mxCell>
+        <mxCell id="6" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" value="Motor Eléctrico y Gemelo Digital (IF-05)" vertex="1">
+          <mxGeometry height="80" width="220" x="1000" y="180" as="geometry" />
+        </mxCell>
+        <mxCell id="7" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" value="Tanques Agua y Sensores (IF-06)" vertex="1">
+          <mxGeometry height="80" width="220" x="1300" y="180" as="geometry" />
+        </mxCell>
+        <mxCell id="8" edge="1" parent="1" source="3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#000000;" target="4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="9" edge="1" parent="1" source="4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#000000;" target="5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="10" edge="1" parent="1" source="5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#000000;" target="6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="11" edge="1" parent="1" source="6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#000000;" target="7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="12" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#cce5ff;strokeColor=#004085;fontStyle=1;" value="Gateway IoT / MQTT Broker" vertex="1">
+          <mxGeometry height="60" width="240" x="700" y="360" as="geometry" />
+        </mxCell>
+        <mxCell id="13" edge="1" parent="1" source="12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#000000;" target="5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="14" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e6f2ff;strokeColor=#007bff;fontStyle=1;" value="Gemelo Digital OpenTwin Cloud" vertex="1">
+          <mxGeometry height="60" width="240" x="700" y="500" as="geometry" />
+        </mxCell>
+        <mxCell id="15" edge="1" parent="1" source="12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#000000;" target="14">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="41qvT3cUROWVIQdddoD0" name="Matriz de Señales y Protocolos">
+    <mxGraphModel dx="860" dy="531" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="OH2U9EDsbeEPmUx5jLJX-1" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#cc6600;fontSize=16;fontStyle=1;" value="Matriz de Señales y Protocolos — Camión Eléctrico de Helados" vertex="1">
+          <mxGeometry height="60" width="480" x="410" y="70" as="geometry" />
+        </mxCell>
+        <mxCell id="OH2U9EDsbeEPmUx5jLJX-2" parent="1" style="whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" value="IF-01: Refrigeración → Sensor Temp / Relay Compresor / Modbus RTU" vertex="1">
+          <mxGeometry height="40" width="600" x="110" y="190" as="geometry" />
+        </mxCell>
+        <mxCell id="OH2U9EDsbeEPmUx5jLJX-3" parent="1" style="whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" value="IF-02: Distribución Eléctrica → Voltaje / Corriente / SOC / CAN-Bus" vertex="1">
+          <mxGeometry height="40" width="600" x="110" y="240" as="geometry" />
+        </mxCell>
+        <mxCell id="OH2U9EDsbeEPmUx5jLJX-4" parent="1" style="whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" value="IF-03: Cabina → GPS / Telemetría / MQTT / HTTP" vertex="1">
+          <mxGeometry height="40" width="600" x="110" y="290" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
