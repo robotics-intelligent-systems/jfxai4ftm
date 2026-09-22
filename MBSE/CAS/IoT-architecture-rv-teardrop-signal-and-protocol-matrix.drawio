@@ -1,0 +1,74 @@
+<mxfile host="Electron" pages="3">
+  <diagram name="Vista Arquitectura Modular RV Teardrop" id="mz3GKVVfDdZhER-DM5Sv">
+    <mxGraphModel dx="860" dy="531" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1920" pageHeight="1080" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="2" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#cc6600;fontSize=16;fontStyle=1;" value="OpenTwin RV Trailer Teardrop — Arquitectura Modular" vertex="1">
+          <mxGeometry height="60" width="520" x="400" y="60" as="geometry" />
+        </mxCell>
+        <mxCell id="3" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" value="IF-01 Energía Solar / Batería" vertex="1">
+          <mxGeometry height="80" width="240" x="100" y="180" as="geometry" />
+        </mxCell>
+        <mxCell id="4" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" value="IF-02 Cocina / Alacena" vertex="1">
+          <mxGeometry height="80" width="240" x="400" y="180" as="geometry" />
+        </mxCell>
+        <mxCell id="5" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" value="IF-03 Cama Convertible / Módulo Habitación" vertex="1">
+          <mxGeometry height="80" width="240" x="700" y="180" as="geometry" />
+        </mxCell>
+        <mxCell id="6" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" value="IF-04 Baño Compacto / Agua" vertex="1">
+          <mxGeometry height="80" width="240" x="1000" y="180" as="geometry" />
+        </mxCell>
+        <mxCell id="7" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" value="IF-05 Sistema Eléctrico / IoT" vertex="1">
+          <mxGeometry height="80" width="240" x="1300" y="180" as="geometry" />
+        </mxCell>
+        <mxCell id="8" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#cce5ff;strokeColor=#004085;" value="IF-06 Chasis / Ruedas / Estructura" vertex="1">
+          <mxGeometry height="80" width="240" x="700" y="360" as="geometry" />
+        </mxCell>
+        <mxCell id="9" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#cce5ff;strokeColor=#004085;fontStyle=1;" value="Gateway IoT / MQTT Broker" vertex="1">
+          <mxGeometry height="60" width="240" x="700" y="500" as="geometry" />
+        </mxCell>
+        <mxCell id="10" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e6f2ff;strokeColor=#007bff;fontStyle=1;" value="Gemelo Digital OpenTwin Cloud" vertex="1">
+          <mxGeometry height="60" width="240" x="700" y="620" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram name="Tabla de Interfaces" id="EhgOz0SZU2ZBw17Hqa1V">
+    <mxGraphModel grid="1" page="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" pageScale="1" pageWidth="1920" pageHeight="1080" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="2" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#cc6600;fontSize=16;fontStyle=1;" value="Tabla de Interfaces — RV Trailer Teardrop" vertex="1">
+          <mxGeometry height="60" width="480" x="400" y="60" as="geometry" />
+        </mxCell>
+        <mxCell id="3" parent="1" style="whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" value="IF-01 Energía Solar → Panel solar, controlador MPPT, batería LiFePO₄" vertex="1">
+          <mxGeometry height="40" width="800" x="100" y="180" as="geometry" />
+        </mxCell>
+        <mxCell id="4" parent="1" style="whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" value="IF-02 Cocina → Placa de inducción, refrigerador, sensores de gas y temperatura" vertex="1">
+          <mxGeometry height="40" width="800" x="100" y="230" as="geometry" />
+        </mxCell>
+        <mxCell id="5" parent="1" style="whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" value="IF-03 Cama Convertible → Sensores de posición, iluminación LED, control de confort" vertex="1">
+          <mxGeometry height="40" width="800" x="100" y="280" as="geometry" />
+        </mxCell>
+        <mxCell id="6" parent="1" style="whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" value="IF-04 Baño Compacto → Bomba de agua, válvulas, sensor nivel, ventilación" vertex="1">
+          <mxGeometry height="40" width="800" x="100" y="330" as="geometry" />
+        </mxCell>
+        <mxCell id="7" parent="1" style="whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" value="IF-05 Sistema Eléctrico → Distribución 12V/220V, inversor, IoT gateway" vertex="1">
+          <mxGeometry height="40" width="800" x="100" y="380" as="geometry" />
+        </mxCell>
+        <mxCell id="8" parent="1" style="whiteSpace=wrap;html=1;fillColor=#cce5ff;strokeColor=#004085;" value="IF-06 Chasis / Ruedas → Sensores de movimiento, freno, suspensión, GPS" vertex="1">
+          <mxGeometry height="40" width="800" x="100" y="430" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram name="Matriz de Señales y Protocolos" id="1OOmnDM-zPQtS4NXrHE4">
+    <mxGraphModel grid="1" page="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
